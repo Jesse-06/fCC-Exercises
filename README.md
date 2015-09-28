@@ -1,2 +1,3 @@
 # fCC-Exercises
-My solutions to the freeCodeCamp exercises
+Solutions I have provided so far on freeCodeCamp
+
