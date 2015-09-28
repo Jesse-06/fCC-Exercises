@@ -1,0 +1,229 @@
+<!--
+  ****       ***         ***       ***         ***        **** 
+  *  Copyright (C) 2015 Tyler Moeller. All rights reserved.  *
+  *  All trademarks, product names, and logos on this site   *
+  *  are the property of their respective owners.            *
+  ****       ***         ***       ***         ***        ****
+
+Assignment Details:
+  - Developed for the freeCodeCamp zipline project: Zipline: Build a Personal Portfolio Webpage
+  - Details: http://freecodecamp.com/challenges/zipline-build-a-personal-portfolio-webpage
+
+Requirements for this assignment:
+  - Without looking at the code used, attempt to reverse engineer: http://codepen.io/ThiagoFerreir4/full/eNMxEp
+  - Users must be able to:
+      - Access all contents of the page by scrolling
+      - Click buttons to take them to my social media pages
+      - See thumbnail images of portfolio projects
+      - Bonus: Use a navbar for navigating to the different sections of the page
+
+Assignment Completed. v1.0 9/23/2015:
+  - Responsive deisgn using JavaScript, jQuery, HTML5, and Bootstrap + FontAwesome CSS libraries.
+  - A navbar, four content sections, and a footer with unique backgrounds to separate sections.
+  - Users can scroll or use the navbar to access all pages
+  - Four social media buttons are available to browse my social stream.
+  - Thumbnail placeholders are in place for current portfolio projects.
+  - Logos of past products contributed to are shown as thumbnails.
+  - Created a timeline.js timeline of my career and inserted it in an iframe
+  - CSS transition effects on buttons and icons with all images scaled down and optimized for web.
+
+To Do: 
+  - Code review
+  - Fix background scaling on small screens
+  - Invert twitter+linkedin logos on transition effects?
+  - Add recent projects to the portfolio - polaroid css
+-->
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#home">Welcome!</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div id="home" class="container-fluid text-center home-content">
+  <div class="row" style="margin: 10em 0 0 0">
+    <div class="col-xs-12">
+      <h2 class="intro-title">tylermoeller.net</h2>
+    </div>
+  </div>
+  <div class="row " style="margin: 2em 0 0 0">
+    <div class="col-xs-8 col-xs-offset-2">
+      <p class="intro-text jumbotron"><strong>A personal website, developed for the <a href="http://freecodecamp.com/" target="_blank">freeCodeCamp</a> Zipline project: <a href="http://freecodecamp.com/challenges/zipline-build-a-personal-portfolio-webpage" target="_blank">Zipline: Build a Personal Portfolio Webpage</a></strong></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-8 col-xs-offset-2">
+      <hr>
+    </div>
+  </div>
+  <div class="row" style="margin: 0 0 20em 0">
+    <div class="col-xs-12">
+      <a class="btn btn-lg" href="http://freecodecamp.com/tylermoeller" target="_blank"><i class="fa fa-fire"></i> freeCodeCamp</a>
+      <a class="btn btn-lg" href="https://twitter.com/Tyler_Moeller" target="_blank"><img class="btn-icon" src="http://i.imgur.com/azrXvqY.gif"> Twitter</a>
+      <a class="btn btn-lg" href="https://www.linkedin.com/in/tylermoeller" target="_blank"><img class="btn-icon" src="http://i.imgur.com/KMAlAp8.png"> LinkedIn</a>
+      <a class="btn btn-lg" href="https://github.com/TylerMoeller" target="_blank"><i class="fa fa-github"></i> GitHub</a>
+    </div>
+  </div>
+</div>
+<div id="about" class="container-fluid about-content">
+  <div class="row" style="margin: 8em 0 8em 0">
+    <div class="col-sm-6">
+      <h2 class="section-title">Hello! I'm Tyler Moeller.</h2>
+      <br>
+      <p>I am passionate about languages and technology. I studied Linguistics at the University of Washington and lived in Spain for two years as I studied Spanish Language and Literature and taught English as a second language. I eventually decided to
+        come back home to Seattle and start a career in technology. I was hired as a Test Engineer at Microsoft and became a people manager, leading teams of 3-15+ engineers delivering Windows, Microsoft Speech, Exchange, Dynamics CRM, and Skype for Business.
+        <br> After nearly 11 years with Microsoft, I decided to take a break from my career - a big risk with the plan of one step back and two steps forward. I spent time with family, remodeled my home, learned to play the ukulele, explored new hobbies,
+        and traveled throughout Europe, Latin America, and the United States. I also began exploring opportunities as a self-employed Technical Consultant for small businesses and individuals. Most of my time involves educating my clients about technology,
+        administering their servers and websites, and enhancing their social media presence. I've lived in Seattle, Washington for over 30 years and I'll never be able to get enough of our trees, mountains, delicious coffee, craft beer, and technology.
+        Follow my adventures on <a href="https://twitter.com/Tyler_Moeller" target="_blank" style="color:white;text-decoration: underline">Twitter</a>. If you are interested in learning more about me professionally, please feel free to connect on
+        <a href="https://www.linkedin.com/in/tylermoeller" target="_blank" style="color:white;text-decoration: underline">LinkedIn</a>.
+      </p>
+    </div>
+  </div>
+</div>
+<div id="portfolio" class="portfolio-content">
+  <div id="portfolio" class="container text-center">
+    <div class="row" style="margin: 7em 0 2em 0">
+      <div class="col-xs-12">
+        <h2 class="section-title">Portfolio</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <p> Below, you will find recent projects, past projects, and a timeline of my career to date.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-10 col-xs-offset-1">
+      </div>
+    </div>
+    <div class="row text-center" style="margin: 4em 0 2em 0">
+      <div class="col-xs-12">
+        <p>Recent Projects</p>
+      </div>
+    </div>
+    <div class="row" style="margin-top: 1em">
+      <div class="col-xs-4 img-portfolio-recent">
+        <i class="fa fa-file-code-o fa-inverse fa-5x"></i>
+        <p style="color: white"></p>
+      </div>
+      <div class="col-xs-4 img-portfolio-recent">
+        <i class="fa fa-cog fa-5x fa-inverse fa-spin"></i>
+        <p style="color: white">
+          <br>Coming soon!</p>
+      </div>
+      <div class="col-xs-4 img-portfolio-recent">
+        <i class="fa fa-file-code-o fa-inverse fa-5x"></i>
+        <p style="color: white"></p>
+      </div>
+    </div>
+    <hr>
+    <div class="row" style="margin: 4em 0 2em 0">
+      <div class="col-xs-12">
+        <p>Past Projects</p>
+      </div>
+    </div>
+    <div class="row img-portfolio" style="margin-top: 1em">
+      <div class="col-xs-4">
+        <img class="img-responsive img-thumbnail img-rounded" src="http://i.imgur.com/ftkPXuW.png" alt="Microsoft Logo">
+      </div>
+      <div class="col-xs-4">
+        <img class="img-responsive img-thumbnail img-rounded" src="http://i.imgur.com/Bstiswc.jpg" alt="Windows XP Logo">
+      </div>
+      <div class="col-xs-4">
+        <img class="img-responsive img-thumbnail img-rounded" src="http://i.imgur.com/bSfBqEp.jpg" alt="Microsoft Plus! for XP Logo">
+      </div>
+    </div>
+    <div class="row img-portfolio" style="margin-top: 1em">
+      <div class="col-xs-4">
+        <img class="img-responsive img-thumbnail img-rounded" src="http://i.imgur.com/swclqFw.png" alt="Microsoft Speech SDK 5.1 Logo">
+      </div>
+      <div class="col-xs-4">
+        <img class="img-responsive img-thumbnail img-rounded" src="http://i.imgur.com/rLcQOqU.jpg" alt="Microsoft Speech Server 2004 Logo">
+      </div>
+      <div class="col-xs-4">
+        <img class="img-responsive img-thumbnail img-rounded" src="http://i.imgur.com/vAhqyoW.gif" alt="Microsoft Exchange Server 2007 Logo">
+      </div>
+    </div>
+    <div class="row text-center img-portfolio" style="margin-top: 1em">
+      <div class="col-xs-4">
+        <img class="img-responsive img-thumbnail img-rounded" src="http://i.imgur.com/0x1H3sh.png" alt="Microsoft Office Communicator 2007 Logo">
+      </div>
+      <div class="col-xs-4">
+        <img class="img-responsive img-thumbnail img-rounded" src="http://i.imgur.com/nL3B1S3.jpg" alt="Microsoft Dynamics CRM Logo">
+      </div>
+      <div class="col-xs-4r">
+        <img class="img-responsive img-thumbnail img-rounded" src="http://i.imgur.com/YzY1ty5.jpg" alt="Microsoft Lync Logo">
+      </div>
+    </div>
+    <div class="row" style="margin: 4em 0 7em 0">
+      <div class="col-xs-12 text-center">
+        <iframe src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=19ZhszecfOOgUzi7PY6GinG6VbsjHlR3xE5hViPKE9eY&font=Default&lang=en&initial_zoom=2&height=650" width="100%" height="650"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="contact" class="container-fluid text-center contact-content">
+  <div class="row" style="margin: 9em 0 2em 0">
+    <div class="col-xs-12">
+      <h2 class="section-title">Connect</h2>
+    </div>
+  </div>
+  <div class="row" style="margin: 2em 0 0 0">
+    <div class="col-xs-12">
+      <p>on social media,</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <a class="btn btn-lg" href="http://freecodecamp.com/tylermoeller" target="_blank"><i class="fa fa-fire"></i> freeCodeCamp</a>
+      <a class="btn btn-lg" href="https://twitter.com/Tyler_Moeller" target="_blank"><img class="btn-icon" src="http://i.imgur.com/azrXvqY.gif"> Twitter</a>
+      <a class="btn btn-lg" href="https://www.linkedin.com/in/tylermoeller" target="_blank"><img class="btn-icon" src="http://i.imgur.com/KMAlAp8.png"> LinkedIn</a>
+      <a class="btn btn-lg" href="https://github.com/TylerMoeller" target="_blank"><i class="fa fa-github"></i> GitHub</a>
+    </div>
+  </div>
+  <div class="row" style="margin: 2em 0 0 0">
+    <div class="col-xs-12">
+      <p>Wordpress,</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <a class="btn btn-lg" href="https://tylermoeller.net" target="_blank"><i class="fa fa-wordpress"></i> https://tylermoeller.net</a>
+    </div>
+  </div>
+  <div class="row" style="margin: 2em 0 0 0">
+    <div class="col-xs-12">
+      <p>or in-person at a local meetup.</p>
+    </div>
+  </div>
+  <div class="row" style="margin: 0 0 12em 0">
+    <div class="col-xs-12">
+      <a class="btn btn-lg" href="http://www.meetup.com/members/186075281/" target="_blank"><img src="http://i.imgur.com/i5VVXnQ.jpg" class="btn-icon" alt="meetup logo"> Meetup</a>
+    </div>
+  </div>
+</div>
+<footer class="footer">
+  <div class="container-fluid">
+    <p>&copy;
+      <script type="text/javascript">
+        var d = new Date();document.write(d.getFullYear());
+      </script>
+      Tyler Moeller. All right reserved. All trademarks, product names, and logos on this site are the property of their respective owners.
+    </p>
+  </div>
+</footer>

@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Cabin:400,700,600,500);
+@font-face {
+  font-family: 'weathericons-regular-webfont';
+  src: url('https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/font/weathericons-regular-webfont.woff') format('woff')
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Cabin', sans-serif;
+  color: white;
+  background-color: #222222;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed center;
+  margin-bottom: 60px;
+  /* margin bottom by footer height */
+}
+
+#city {
+  text-shadow: 2px 4px 1px #333333;
+  font-size: 2.8em;
+  color: white;
+  text-align: center;
+  font-weight: 800;
+}
+
+#temperature {
+  font-size: 4em;
+  text-shadow: 2px 4px 2px #333333;
+  text-align: center;
+  margin-top: .25em;
+}
+
+#results {
+  text-align: center;
+  margin: 1em 0 2em 0;
+}
+
+#description,
+#wind-speed {
+  display: inline-block;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #333333;
+  text-align: center;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  padding: 1em 1em 1em 1em;
+  margin: .5em;
+  background-color: rgba(147, 175, 196, .5);
+  box-shadow: .2em .2em .2em #222222;
+  min-width: 10em;
+  min-height: 6em;
+}
+
+#converter {
+  margin-bottom: 4em;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #222222;
+  margin-top: 4em;
+  height: 60px;
+  /* Set the fixed height of the footer here */
+}
+
+.footer p {
+  font-size: 12px;
+  font-weight: 600;
+  color: #9d9d9d;
+  text-align: left;
+  margin-left: 1em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
