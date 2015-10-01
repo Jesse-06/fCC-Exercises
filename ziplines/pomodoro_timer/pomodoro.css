@@ -1,0 +1,105 @@
+/*
+* Ordered (mostly) in the order elements appear on the page
+*/
+
+@media screen and (max-width: 767px) {
+  #top {
+    margin-top: 1em;
+  }
+}
+
+#top {
+  margin-top: 5em;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  -webkit-user-select: none;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #222222!important;
+  margin-bottom: 60px;
+  /* margin bottom by footer height */
+}
+
+p {
+  color: white;
+  margin: 0;
+}
+
+.intro-title {
+  font-size: 3em;
+  color: white;
+}
+
+.progress {
+  width: 45%;
+}
+
+.progress-bar {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+.timer-row {
+  margin: 3em 0 1em 0;
+}
+
+.clock-time {
+  font-size: 5em;
+}
+
+.play-reset-row {
+  font-size: 2em;
+}
+
+.time-adjustment-row {
+  white-space: nowrap;
+}
+
+.task-time-display, .break-time-display {
+  font-size: 2em;
+  color: white;
+}
+
+#sessionCount {
+  color:white;
+  font-size: 2em;
+}
+/* Show link pointer so users know icons are clickable */
+.icon {
+  cursor: pointer;
+}
+
+.icon:active {
+  transition: .1s;
+  transform: scale(1.1);
+  opacity: 1;
+  position: relative;
+  z-index: 99;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #222222;
+  height: 60px;
+  /* Set the fixed height of the footer here */
+}
+
+.footer p {
+  font-size: 12px;
+  font-weight: 600!important;
+  color: #9d9d9d;
+  text-align: left;
+  margin-left: 1em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
