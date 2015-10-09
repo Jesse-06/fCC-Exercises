@@ -1,5 +1,5 @@
-<!-- 
-  ****       ***         ***       ***         ***        ****
+<!--
+  ****       ***         ***       ***         ***        **** 
   *  Copyright (C) 2015 Tyler Moeller. All rights reserved.  *
   *  All trademarks, product names, and logos on this site   * 
   *  are the property of their respective owners.            *
@@ -16,71 +16,70 @@ Requirements for this assignment:
       - Bonus: Reset the clock
       - Bonus: Customize the length of the timer
 
-Assignment Completed. v1.0 m/dd/2015:
-  - Responsive deisgn using JavaScript, jQuery, HTML5, and Bootstrap + Weather-Icons CSS libraries.
-  - 
+Assignment Completed. v1.0 10/01/2015:
+  - Responsive deisgn using JavaScript, jQuery, HTML5, and Bootstrap + FontAwesome CSS libraries.
+  - Users can access the following features:
+      - Continuously running timer set to 25 minutes followed by a 5-minute break by default. 
+      - Play/Pause toggle button to start and pause the timer.
+      - Stop/Reset the timer back to the current Task Time setting (25 minutes by default).
+      - Option to receive a desktop notification every time the timer reaches 0.
+      - Review the number of Pomodoro Sessions completed (1 session = Timer + Break Timer completed)
+      - Adjust the timer from 1-120 minutes and the break timer from 0-120 minutes. Both options can be reset to defaults without reloading the page.
+      - Test Mode to validate the design on codepen, changes 1 second to 100ms.
+  - Hours, minutes, and seconds stored in appropriate time formats based on values as: H:MM:SS, MM:SS, M:SS, SS, and S.
+
 To Do: 
-  - Code review - comments / questions in the code  
-  - Build the app!
-  - At v 0.01 alpha at the moment :) need to fix a few bugs:
-      - Toggle Play/Pause button not working during break time.
-  - Add "break time" or "main time" to progress bar
-  - UI Design....lots of work needed.
+  - Code review
+  - Better UI Design
+  - Hide notification setting if IE, Edge, or mobile browser. Only hidden when screen is <= 520px now.
  -->
-<div id="top"></div>
+
 <div id="home" class="container text-center home-content">
-  <div class="row title-row">
+  <div class="row">
     <h2 class="intro-title">Pomodoro Timer</h2>
-    <p>(under construction)</p>
   </div>
-  <div class="row timer-row">
-    <div class="col-xs-12 timer-col">
-      <div class="row progress-bar-row" style="height: 1em">
-        <div id="show-progress" class="progress center-block" style="visibility: hidden">
-          <div id="progress-bar" class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">0%</div>
-        </div>
-      </div>
-      <div class="cloc-row">
-        <p id="clock-time" class="clock-time"></p>
-      </div>
-      <div class="row play-reset-row">
-        <span class="fa-stack fa-md icon">
-          <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-          <i id="play-pause-button" onclick="timerControl()" class="fa fa-play fa-stack-1x"></i>
-        </span>
-        <span class="fa-stack fa-md icon">
-            <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-            <i id="reset-clock-button" onclick="timerReset()" class="fa fa-refresh fa-stack-1x"></i>
-        </span>
-      </div>
+  <div class="row" style="height: 1em">
+    <div id="show-progress" class="progress center-block" style="visibility: hidden">
+      <div id="progress-bar" class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
     </div>
   </div>
-    <div id="sessionCount" class="row">&#x1f345 0</div>
+  <div id="clock-time" class="row clock-time"></div>
+  <div class="row play-reset-row">
+    <span class="fa-stack fa-md icon">
+      <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+      <i id="play-pause-button" onclick="timerControl()" class="fa fa-play fa-stack-1x"></i>
+    </span>
+    <span class="fa-stack fa-md icon">
+      <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+      <i id="reset-clock-button" onclick="timerReset()" class="fa fa-refresh fa-stack-1x"></i>
+    </span>
+  </div>
+  <div id="sessionCount" class="row"><span style="color:red">&#x1f345</span> 0</div>
   <div class="row time-adjustment-row">
-    <div class="col-xs-4 col-xs-offset-2 task-time-col">
+    <div class="col-xs-4 col-xs-offset-2 task-time-col" style="min-width: 100px">
       <p id="task-time" class="task-time-display"></p>
       <div class="row">
-        <p>Task Time</p>
+        <p class="task-time-text">Task Time</p>
         <div class="row">
           <span class="fa-stack fa-md icon">
-          <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-          <i id="task-time-up-button" class="fa fa-plus fa-stack-1x" onclick="taskTimeUp()"></i>
+            <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+            <i id="task-time-up-button" class="fa fa-plus fa-stack-1x" onclick="taskTimeUp()"></i>
           </span>
           <span class="fa-stack fa-md icon">
-            <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-            <i id="task-time-reset-button" class="fa fa-refresh fa-stack-1x" onclick="taskTimeReset()"></i>
+              <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+              <i id="task-time-reset-button" class="fa fa-refresh fa-stack-1x" onclick="taskTimeReset()"></i>
            </span>
           <span class="fa-stack fa-md icon">
-          <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-          <i id="task-time-down-buton" class="fa fa-minus fa-stack-1x" onclick="taskTimeDown()"></i>
+            <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+            <i id="task-time-down-buton" class="fa fa-minus fa-stack-1x" onclick="taskTimeDown()"></i>
           </span>
         </div>
       </div>
     </div>
-    <div class="col-xs-4 break-time-col" style="min-width: 100px;">
+    <div class="col-xs-4 break-time-col" style="min-width: 100px">
       <p id="break-time" class="break-time-display"></p>
       <div class="row">
-        <p>Break Time</p>
+        <p class="break-time-text">Break Time</p>
       </div>
       <div class="row">
         <span class="fa-stack fa-md icon">
@@ -98,14 +97,21 @@ To Do:
       </div>
     </div>
   </div>
-  <div class="row" style="margin-top:5em">
-    <div class="switch col-xs-12 checkbox">
-      <label><input id="testMode" type="checkbox" checked><span style="color:white">Test Mode (1 second = 100ms)</span></label>
+  <div class="row settings">
+    <div class="col-xs-10 col-xs-offset-1">
+    <p>Settings:</p>
+      </div>
+  </div>
+  <div class="switch checkbox row">
+        <div class="col-xs-9 col-xs-offset-2">
+      <p><label class="continuous-mode-label" data-toggle="tooltip" title="Don't stop the timer when it reaches 0. Proceed to the next timer."><input id="perpetual" type="checkbox">Perpetual Pomodoro</label></p>
+      <p><label class="notifications-label" data-toggle="tooltip" title="Not supported in Internet Explorer, Edge, or Mobile browsers yet."><input id="notify" type="checkbox">Desktop Notifications when timer completes</label></p>
+      <p><label class="test-mode-label" data-toggle="tooltip" title="1 second = 100 milliseconds"><input id="testMode" type="checkbox">Test Mode</label></p>
     </div>
   </div>
 </div>
 <div id="footer" class="footer">
   <div class="container-fluid">
     <p>Copyright &copy; 2015, Tyler Moeller. All rights reserved.</p>
-  </div> 
+  </div>
 </div>

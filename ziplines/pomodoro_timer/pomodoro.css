@@ -1,15 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@import url(https://fonts.googleapis.com/css?family=Nova+Square);
+
 /*
 * Ordered (mostly) in the order elements appear on the page
 */
-
-@media screen and (max-width: 767px) {
-  #top {
-    margin-top: 1em;
-  }
-}
-
-#top {
-  margin-top: 5em;
+#home {
+  margin-top: 1em;
+  min-width: 320px;
+  max-width: 520px;
 }
 
 html {
@@ -18,6 +16,7 @@ html {
 }
 
 body {
+  /* Disable text selection so buttons aren't highlighted when rapidly clicked */
   -webkit-user-select: none;
   -moz-user-select: -moz-none;
   -ms-user-select: none;
@@ -30,32 +29,38 @@ body {
 p {
   color: white;
   margin: 0;
+  font-family: 'Varela Round', sans-serif;
 }
 
 .intro-title {
-  font-size: 3em;
+  font-size: 3.5em;
   color: white;
+  font-family: 'Varela Round', sans-serif;
 }
 
 .progress {
-  width: 45%;
+  width: 50%;
 }
 
 .progress-bar {
-  text-align: center;
+  text-align: left;
   color: black;
   font-weight: bold;
 }
 
-.timer-row {
-  margin: 3em 0 1em 0;
-}
-
 .clock-time {
+  font-family: 'Nova Square', sans-serif;
   font-size: 5em;
+  color: white;
 }
 
 .play-reset-row {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+#sessionCount {
+  color: white;
   font-size: 2em;
 }
 
@@ -63,15 +68,29 @@ p {
   white-space: nowrap;
 }
 
-.task-time-display, .break-time-display {
+.task-time-display,
+.break-time-display {
   font-size: 2em;
   color: white;
+  font-family: 'Nova Square', sans-serif;
 }
 
-#sessionCount {
-  color:white;
-  font-size: 2em;
+.settings p {
+  text-align: left;
+  margin: 4em 0 0 0;
 }
+
+.checkbox p {
+  text-align: left;
+  margin: 0 0 .5em 0;
+}
+/* Disable the notifications setting on mobile-sized screens (not supported on mobile)*/
+@media screen and (max-width:521px) {
+  .notifications-label {
+    display: none;
+  }
+}
+
 /* Show link pointer so users know icons are clickable */
 .icon {
   cursor: pointer;
@@ -95,6 +114,7 @@ p {
 }
 
 .footer p {
+  font-family: sans-serif;
   font-size: 12px;
   font-weight: 600!important;
   color: #9d9d9d;
