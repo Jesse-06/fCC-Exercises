@@ -1,0 +1,88 @@
+<!--
+  ****       ***         ***       ***         ***        **** 
+  *  Copyright (C) 2015 Tyler Moeller. All rights reserved.  *
+  *  All trademarks, product names, and logos on this site   *
+  *  are the property of their respective owners.            *
+  ****       ***         ***       ***         ***        ****
+
+Assignment Details:
+  - Developed for the freeCodeCamp zipline project: Zipline: Build a JavaScript Calculator
+  - Details: http://freecodecamp.com/challenges/zipline-build-a-javascript-calculator
+
+Requirements for this assignment:
+  - Reverse engineer this without looking at the code: http://codepen.io/GeoffStorbeck/full/zxgaqw
+  - Users can add, subtract, multiply, and divide two numbers.
+  - Bonus: Users can clear the input field with a clear button.
+  - Bonus: Users can chain mathematical operations together and get the correct output
+
+Assignment Completed. v1.0 10/13/2015:
+  - Mobile-friendly design using JavaScript, jQuery, mobile fastclick.js library, HTML5, CSS3 gradient transitions, and Bootstrap + Font-awesome CSS libraries.
+  - Successfully reverse engineered http://codepen.io/GeoffStorbeck/full/zxgaqw without looking at the code. (and improved on the design!) 
+  - Users are able to:
+      - Clear all input or the most recent entry.
+      - Add, subtract, multiply, and divide two numbers.
+      - Chain mathematical operations together and get the correct output. 
+      - Calculate percentage.
+      - Perform negative/positive operations on entries and answers.
+      - Manually enter numbers from a keyboard or numerical touchpad on a mobile device.
+  - Input window restricted to valid values to prevent unexpected input.
+  - CSS/HTML effects for turning the calculator on and off
+
+To Do: 
+  - Code review
+  - Disable keyboard input of multiple operators or decimal points in a row. Disabled on submit, but not on entry. 
+  - make "=" continue operations when pressed multiple times in a row
+  - Fix rounding errors with large numbers
+ -->
+
+<div class="headroom"></div>
+<div class="container calculator">
+  <div class="row text-center logo">
+    <p class="brand">Tyler Calcutronics&trade;</p>
+    <p class="model">
+      <span class="fa-stack fa-sm">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-calculator fa-stack-1x fa-inverse"></i>
+      </span> TC-1000</p>
+  </div>
+  <div class="row text-center">
+    <i id="battery" class="fa fa-battery-half fa-stack-1x" style="visibility: hidden"></i>
+    <input id="input-window" type="text" pattern="[0-9]*" maxlength="12" onKeyPress="return inputLimiter(event)"></input>
+    <div>
+      <button id="power" class="aluminum square" onclick="powerButton()"><i id="power-btn" class="fa fa-md fa-power-off"></i></button>
+      <button id="clear" class="aluminum square" onclick="clearButton()">C</button>
+      <button id="%" class="aluminum square" onclick="percent()">%</button>
+      <button id="/" class="aluminum square" onclick="operate('/')">&divide;</button>
+    </div>
+    <div>
+      <button id="7" class="aluminum round number">7</button>
+      <button id="8" class="aluminum round number">8</button>
+      <button id="9" class="aluminum round number">9</button>
+      <button id="*" class="aluminum square" onclick="operate('*')">&times;</button>
+    </div>
+    <div>
+      <button id="4" class="aluminum round number">4</button>
+      <button id="5" class="aluminum round number">5</button>
+      <button id="6" class="aluminum round number">6</button>
+      <button id="-" class="aluminum square" onClick="operate('-')">-</button>
+    </div>
+    <div>
+      <button id="1" class="aluminum round number">1</button>
+      <button id="2" class="aluminum round number">2</button>
+      <button id="3" class="aluminum round number">3</button>
+      <button id="+" class="aluminum square" onClick="operate('+')">+</button>
+    </div>
+    <div>
+      <button id="0" class="aluminum round number">0</button>
+      <button id="." class="aluminum round" onclick="decimal()">.</button>
+      <button id="-1" class="aluminum round" onclick="plusmin()">+/-</button>
+      <button id="=" class="aluminum square" onClick="equals()">=</button>
+    </div>
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="text-muted">Copyright &copy; 2015 Tyler Moeller. All rights reserved. Developed for the freeCodeCamp Zipline Project: <a href="http://freecodecamp.com/challenges/zipline-build-a-javascript-calculator">Zipline: Build a JavaScript Calculator</a></p>
+  </div>
+</footer>
+<div id="formula" style="display: none"></div>
