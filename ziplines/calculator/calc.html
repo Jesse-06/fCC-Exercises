@@ -29,10 +29,9 @@ Assignment Completed. v1.0 10/13/2015:
   - CSS/HTML effects for turning the calculator on and off
 
 To Do: 
-  - Code review
-  - Disable keyboard input of multiple operators or decimal points in a row. Disabled on submit, but not on entry. 
-  - make "=" continue operations when pressed multiple times in a row
-  - Fix rounding errors with large numbers
+  - Disable keyboard input of multiple operators or decimal points in a row. Disabled on submit, but not on entry, so nice to have for now.
+  - make "=" continue operations when pressed multiple times in a row. Also a nice to have for now.
+  -  jQuery Tap for faster response on mobile
  -->
 
 <div class="headroom"></div>
@@ -46,8 +45,8 @@ To Do:
       </span> TC-1000</p>
   </div>
   <div class="row text-center">
-    <i id="battery" class="fa fa-battery-half fa-stack-1x" style="visibility: hidden"></i>
-    <input id="input-window" type="text" pattern="[0-9]*" maxlength="12" onKeyPress="return inputLimiter(event)"></input>
+    <i id="battery" class="fa fa-battery-4 fa-stack-1x" style="visibility: hidden"></i>
+    <input id="input-window" type="tel" pattern="[0-9]*" maxlength="11" onKeyPress="return inputLimiter(event)"></input>
     <div>
       <button id="power" class="aluminum square" onclick="powerButton()"><i id="power-btn" class="fa fa-md fa-power-off"></i></button>
       <button id="clear" class="aluminum square" onclick="clearButton()">C</button>
@@ -55,25 +54,25 @@ To Do:
       <button id="/" class="aluminum square" onclick="operate('/')">&divide;</button>
     </div>
     <div>
-      <button id="7" class="aluminum round number">7</button>
-      <button id="8" class="aluminum round number">8</button>
-      <button id="9" class="aluminum round number">9</button>
+      <button id="7" class="aluminum round number" onclick="numberButton(7)">7</button>
+      <button id="8" class="aluminum round number" onclick="numberButton(8)">8</button>
+      <button id="9" class="aluminum round number" onclick="numberButton(9)">9</button>
       <button id="*" class="aluminum square" onclick="operate('*')">&times;</button>
     </div>
     <div>
-      <button id="4" class="aluminum round number">4</button>
-      <button id="5" class="aluminum round number">5</button>
-      <button id="6" class="aluminum round number">6</button>
+      <button id="4" class="aluminum round number" onclick="numberButton(4)">4</button>
+      <button id="5" class="aluminum round number" onclick="numberButton(5)">5</button>
+      <button id="6" class="aluminum round number" onclick="numberButton(6)">6</button>
       <button id="-" class="aluminum square" onClick="operate('-')">-</button>
     </div>
     <div>
-      <button id="1" class="aluminum round number">1</button>
-      <button id="2" class="aluminum round number">2</button>
-      <button id="3" class="aluminum round number">3</button>
+      <button id="1" class="aluminum round number" onclick="numberButton(1)">1</button>
+      <button id="2" class="aluminum round number" onclick="numberButton(2)">2</button>
+      <button id="3" class="aluminum round number" onclick="numberButton(3)">3</button>
       <button id="+" class="aluminum square" onClick="operate('+')">+</button>
     </div>
     <div>
-      <button id="0" class="aluminum round number">0</button>
+      <button id="0" class="aluminum round number" onclick="numberButton(0)">0</button>
       <button id="." class="aluminum round" onclick="decimal()">.</button>
       <button id="-1" class="aluminum round" onclick="plusmin()">+/-</button>
       <button id="=" class="aluminum square" onClick="equals()">=</button>
@@ -82,7 +81,14 @@ To Do:
 </div>
 <footer class="footer">
   <div class="container">
-    <p class="text-muted">Copyright &copy; 2015 Tyler Moeller. All rights reserved. Developed for the freeCodeCamp Zipline Project: <a href="http://freecodecamp.com/challenges/zipline-build-a-javascript-calculator">Zipline: Build a JavaScript Calculator</a></p>
+    <div class="footer-text text-muted text-center">Copyright &copy; 2015 Tyler Moeller. All rights reserved. Developed for the freeCodeCamp Zipline Project: <a href="http://freecodecamp.com/challenges/zipline-build-a-javascript-calculator">Zipline: Build a JavaScript Calculator</a></div>
+    <div class="footer-logos text-center">
+      <a href="https://twitter.com/Tyler_Moeller" target="_blank"><i class="fa-footer fa fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/tylermoeller" target="_blank"><i class="fa-footer fa fa-linkedin"></i></a>
+      <a href="https://github.com/TylerMoeller" target="_blank"><i class="fa-footer fa fa-github"></i></a>
+      <a href="http://freecodecamp.com/tylermoeller" target="_blank"><i class="fa-footer fa fa-fire"></i></a>
+    </div>
+  </div>
   </div>
 </footer>
 <div id="formula" style="display: none"></div>
