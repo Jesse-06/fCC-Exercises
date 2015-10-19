@@ -1,0 +1,35 @@
+----------
+Title: Bonfire: Diff Two Arrays
+----------
+http://freecodecamp.com/challenges/Bonfire:%20Diff%20Two%20Arrays?solution=function%20diff(arr1%2C%20arr2)%20%7B%0A%20%20var%20newArr%20%3D%20%5B%5D%3B%0A%0A%20%20for%20(var%20i%20%3D%200%3B%20i%20%3C%20arr1.length%3B%20i%2B%2B)%20%7B%0A%20%20%20%20if%20(arr2.indexOf(arr1%5Bi%5D)%20%3D%3D%3D%20-1)%20%7B%0A%20%20%20%20%20%20newArr.push(arr1%5Bi%5D)%3B%0A%20%20%20%20%7D%0A%20%20%7D%0A%0A%20%20for%20(i%20%3D%200%3B%20i%20%3C%20arr2.length%3B%20i%2B%2B)%20%7B%0A%20%20%20%20if%20(arr1.indexOf(arr2%5Bi%5D)%20%3D%3D%3D%20-1)%20%7B%0A%20%20%20%20%20%20newArr.push(arr2%5Bi%5D)%3B%0A%20%20%20%20%7D%0A%20%20%7D%0A%0A%20%20return%20newArr%3B%0A%0A%7D%0A%0Adiff(%5B1%2C%202%2C%203%2C%205%5D%2C%20%5B1%2C%202%2C%203%2C%204%2C%205%5D)%3B%0A
+
+
+----------
+Instructions:
+----------
+Compare two arrays and return a new array with any items not found in both of the original arrays.Remember to use Read-Search-Ask if you get stuck. Try to pair program. Write your own code.
+
+----------
+Answer:
+----------
+function diff(arr1, arr2) {
+  var newArr = [];
+
+  for (var i = 0; i < arr1.length; i++) {
+    if (arr2.indexOf(arr1[i]) === -1) {
+      newArr.push(arr1[i]);
+    }
+  }
+
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) === -1) {
+      newArr.push(arr2[i]);
+    }
+  }
+
+  return newArr;
+
+}
+
+diff([1, 2, 3, 5], [1, 2, 3, 4, 5]);
+

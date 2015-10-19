@@ -1,0 +1,27 @@
+----------
+Title: Bonfire: Everything Be True
+----------
+http://freecodecamp.com/challenges/Bonfire:%20Everything%20Be%20True?solution=function%20every(collection%2C%20pre)%20%7B%0A%0A%20%20for%20(var%20i%20%3D%200%3B%20i%20%3C%20collection.length%20-%201%3B%20i%2B%2B)%20%7B%0A%20%20%20%20if(!collection%5Bi%5D.hasOwnProperty(pre))%20%7B%0A%20%20%20%20%20%20return%20false%3B%0A%20%20%20%20%7D%0A%20%20%7D%0A%20%20%0A%20%20return%20true%3B%0A%20%20%7D%0A%0Aevery(%5B%7B%22user%22%3A%20%22Tinky-Winky%22%2C%20%22sex%22%3A%20%22male%22%7D%2C%20%7B%22user%22%3A%20%22Dipsy%22%2C%20%22sex%22%3A%20%22male%22%7D%2C%20%7B%22user%22%3A%20%22Laa-Laa%22%2C%20%22sex%22%3A%20%22female%22%7D%2C%20%7B%22user%22%3A%20%22Po%22%2C%20%22sex%22%3A%20%22female%22%7D%5D%2C%20%22sex%22)%3B%0A
+
+
+----------
+Instructions:
+----------
+Check if the predicate (second argument) returns truthy (defined) for all elements of a collection (first argument).For this, check to see if the property defined in the second argument is present on every element of the collection.Remember, you can access object properties through either dot notation or [] notation.Remember to use Read-Search-Ask if you get stuck. Try to pair program. Write your own code.
+
+----------
+Answer:
+----------
+function every(collection, pre) {
+
+  for (var i = 0; i < collection.length - 1; i++) {
+    if(!collection[i].hasOwnProperty(pre)) {
+      return false;
+    }
+  }
+  
+  return true;
+  }
+
+every([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "male"}, {"user": "Laa-Laa", "sex": "female"}, {"user": "Po", "sex": "female"}], "sex");
+

@@ -1,0 +1,26 @@
+----------
+Title: Bonfire: Sum All Numbers in a Range
+----------
+http://freecodecamp.com/challenges/Bonfire:%20Sum%20All%20Numbers%20in%20a%20Range?solution=function%20sumAll(arr)%20%7B%0A%20%20var%20max%20%3D%20Math.max.apply(null%2C%20arr)%0A%20%20var%20min%20%3D%20Math.min.apply(null%2C%20arr)%0A%20%20var%20sum%20%3D%200%3B%0A%0A%20%20for%20(%20var%20i%20%3D%20max%3B%20i%20%3E%3D%20min%3B%20i--%20)%20%7B%0A%20%20%20%20sum%20%2B%3D%20i%0A%20%20%7D%0A%20%20return%20sum%3B%0A%7D%0A%0AsumAll(%5B1%2C%204%5D)%3B
+
+
+----------
+Instructions:
+----------
+We'll pass you an array of two numbers. Return the sum of those two numbers and all numbers between them.The lowest number will not always come first.Remember to use Read-Search-Ask if you get stuck. Try to pair program. Write your own code.
+
+----------
+Answer:
+----------
+function sumAll(arr) {
+  var max = Math.max.apply(null, arr)
+  var min = Math.min.apply(null, arr)
+  var sum = 0;
+
+  for ( var i = max; i >= min; i-- ) {
+    sum += i
+  }
+  return sum;
+}
+
+sumAll([1, 4]);

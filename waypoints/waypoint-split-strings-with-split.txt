@@ -1,0 +1,22 @@
+----------
+Title: Waypoint: Split Strings with split
+----------
+http://freecodecamp.com/challenges/Waypoint:%20Split%20Strings%20with%20split?solution=var%20string%20%3D%20%22Split%20me%20into%20an%20array%22%3B%0A%2F%2F%20Only%20change%20code%20below%20this%20line.%0A%0Avar%20array%20%3D%20string%3B%0Aarray%20%3D%20string.split(%27%20%27)%3B%0A%2F%2F%20Only%20change%20code%20above%20this%20line.%0A(function()%20%7Breturn%20array%3B%7D)()%3B%0A
+
+
+----------
+Instructions:
+----------
+You can use the .split() method to split a string into an array..split() uses the argument you pass in as a delimiter to determine which points the string should be split at.var array = string.split(' ');Use .split() to create an array of words from string and assign it to array.
+
+----------
+Answer:
+----------
+var string = "Split me into an array";
+// Only change code below this line.
+
+var array = string;
+array = string.split(' ');
+// Only change code above this line.
+(function() {return array;})();
+

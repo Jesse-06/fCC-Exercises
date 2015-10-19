@@ -1,0 +1,30 @@
+----------
+Title: Bonfire: Binary Agents
+----------
+http://freecodecamp.com/challenges/Bonfire:%20Binary%20Agents?solution=function%20binaryAgent(str)%20%7B%0A%20%20%0A%20%20var%20str%20%3D%20str.split(%27%20%27)%3B%0A%20%20var%20sentence%20%3D%20%22%22%0A%20%20%0A%20%20%2F%2Fconvert%20binary%20to%20decimal%2C%20consider%20decimals%20as%20CharCodes%20and%20build%20the%20sentence%0A%20%20for(var%20i%20%3D%200%3B%20i%20%3C%20str.length%3B%20i%2B%2B)%20%7B%0A%20%20%20%20str%5Bi%5D%20%3D%20parseInt(str%5Bi%5D%2C%202)%0A%20%20%20%20sentence%20%2B%3D%20String.fromCharCode(str%5Bi%5D)%0A%20%20%7D%0A%20%20%0A%20%20return%20sentence%3B%0A%7D%0A%0AbinaryAgent(%2201000001%2001110010%2001100101%2001101110%2000100111%2001110100%2000100000%2001100010%2001101111%2001101110%2001100110%2001101001%2001110010%2001100101%2001110011%2000100000%2001100110%2001110101%2001101110%2000100001%2000111111%22)%3B%0A
+
+
+----------
+Instructions:
+----------
+Return an English translated sentence of the passed binary string.The binary string will be space separated.Remember to use Read-Search-Ask if you get stuck. Try to pair program. Write your own code.
+
+----------
+Answer:
+----------
+function binaryAgent(str) {
+  
+  var str = str.split(' ');
+  var sentence = ""
+  
+  //convert binary to decimal, consider decimals as CharCodes and build the sentence
+  for(var i = 0; i < str.length; i++) {
+    str[i] = parseInt(str[i], 2)
+    sentence += String.fromCharCode(str[i])
+  }
+  
+  return sentence;
+}
+
+binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
+

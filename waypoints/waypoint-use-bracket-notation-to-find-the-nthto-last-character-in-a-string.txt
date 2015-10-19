@@ -1,0 +1,28 @@
+----------
+Title: Waypoint: Use Bracket Notation to Find the NthtoLast Character in a String
+----------
+http://freecodecamp.com/challenges/Waypoint:%20Use%20Bracket%20Notation%20to%20Find%20the%20NthtoLast%20Character%20in%20a%20String?solution=var%20firstName%20%3D%20%22Ada%22%3B%0A%0Avar%20thirdToLastLetterOfFirstName%20%3D%20firstName%5BfirstName.length%20-%203%5D%3B%0A%0Avar%20lastName%20%3D%20%22Lovelace%22%3B%0A%0Avar%20secondToLastLetterOfLastName%20%3D%20lastName%5BlastName.length%20-%202%5D%3B%0A%0A%0A%2F%2F%20Only%20change%20code%20above%20this%20line.%0A%2F%2F%20We%20use%20this%20function%20to%20show%20you%20the%20value%20of%20your%20variable%20in%20your%20output%20box.%0A%2F%2F%20You%27ll%20learn%20about%20functions%20soon.%0A(function(v)%7Breturn%20v%3B%7D)(secondToLastLetterOfLastName)%3B%0A
+
+
+----------
+Instructions:
+----------
+In order to get the last letter of a string, you can subtract one from the string's length.For example, you can get the value of the third-to-last letter of the var firstName = "Charles" string by using firstName[firstName.length - 3].Use bracket notation to find the second-to-last character in the lastName string.Try looking at the thirdToLastLetterOfFirstName variable declaration if you get stuck.
+
+----------
+Answer:
+----------
+var firstName = "Ada";
+
+var thirdToLastLetterOfFirstName = firstName[firstName.length - 3];
+
+var lastName = "Lovelace";
+
+var secondToLastLetterOfLastName = lastName[lastName.length - 2];
+
+
+// Only change code above this line.
+// We use this function to show you the value of your variable in your output box.
+// You'll learn about functions soon.
+(function(v){return v;})(secondToLastLetterOfLastName);
+

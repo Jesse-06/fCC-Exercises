@@ -1,0 +1,25 @@
+----------
+Title: Waypoint: Iterate over Arrays with map
+----------
+http://freecodecamp.com/challenges/Waypoint:%20Iterate%20over%20Arrays%20with%20map?solution=%2F%2FUse%20map%20to%20add%20three%20to%20each%20value%20in%20the%20array%0Avar%20array%20%3D%20%5B1%2C2%2C3%2C4%2C5%5D%3B%0A%2F%2F%20Only%20change%20code%20below%20this%20line.%0Aarray%20%3D%20array.map(function(val)%20%7B%0A%20%20return%20val%20%2B%203%3B%0A%7D)%3B%0A%0A%0A%2F%2F%20Only%20change%20code%20above%20this%20line.%0A(function()%20%7Breturn%20array%3B%7D)()%3B%0A
+
+
+----------
+Instructions:
+----------
+The map method is one of the easiest ways to iterate through an array or object there is. Let's use it now.array = array.map(function(val){  return val+1;});Use the map function to add 3 to every value in the variable array.
+
+----------
+Answer:
+----------
+//Use map to add three to each value in the array
+var array = [1,2,3,4,5];
+// Only change code below this line.
+array = array.map(function(val) {
+  return val + 3;
+});
+
+
+// Only change code above this line.
+(function() {return array;})();
+

@@ -1,0 +1,20 @@
+----------
+Title: Waypoint: Fill in the Blank with Placeholder Text
+----------
+http://freecodecamp.com/challenges/Waypoint:%20Fill%20in%20the%20Blank%20with%20Placeholder%20Text?solution=%3Ch1%3EHello%20World%3C%2Fh1%3E%0A%0A%3Ch2%3ECatPhotoApp%3C%2Fh2%3E%0A%0A%3Cp%3EKitty%20ipsum%20dolor%3C%2Fp%3E%0A
+
+
+----------
+Instructions:
+----------
+
+
+----------
+Answer:
+----------
+<h1>Hello World</h1>
+
+<h2>CatPhotoApp</h2>
+
+<p>Kitty ipsum dolor</p>
+

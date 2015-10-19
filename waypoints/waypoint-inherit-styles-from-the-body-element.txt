@@ -1,0 +1,22 @@
+----------
+Title: Waypoint: Inherit Styles from the Body Element
+----------
+http://freecodecamp.com/challenges/Waypoint:%20Inherit%20Styles%20from%20the%20Body%20Element?solution=%3Cstyle%3E%0A%20%20body%20%7B%0A%20%20%20%20background-color%3A%20black%3B%0A%20%20%20%20color%3A%20green%3B%0A%20%20%20%20font-family%3A%20Monospace%3B%0A%20%20%7D%0A%3C%2Fstyle%3E%0A%3Ch1%3EHello%20World%3C%2Fh1%3E
+
+
+----------
+Instructions:
+----------
+
+
+----------
+Answer:
+----------
+<style>
+  body {
+    background-color: black;
+    color: green;
+    font-family: Monospace;
+  }
+</style>
+<h1>Hello World</h1>

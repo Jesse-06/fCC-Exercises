@@ -1,0 +1,28 @@
+----------
+Title: Waypoint: Use Bracket Notation to Find the Nth Character in a String
+----------
+http://freecodecamp.com/challenges/Waypoint:%20Use%20Bracket%20Notation%20to%20Find%20the%20Nth%20Character%20in%20a%20String?solution=var%20firstName%20%3D%20%22Ada%22%3B%0A%0Avar%20secondLetterOfFirstName%20%3D%20firstName%5B1%5D%3B%0A%0Avar%20lastName%20%3D%20%22Lovelace%22%3B%0A%0Avar%20thirdLetterOfLastName%20%3D%20lastName%5B2%5D%3B%0A%0A%0A%2F%2F%20Only%20change%20code%20above%20this%20line.%0A%2F%2F%20We%20use%20this%20function%20to%20show%20you%20the%20value%20of%20your%20variable%20in%20your%20output%20box.%0A%2F%2F%20You%27ll%20learn%20about%20functions%20soon.%0A(function(v)%7Breturn%20v%3B%7D)(thirdLetterOfLastName)%3B%0A
+
+
+----------
+Instructions:
+----------
+You can also use bracket Notationto get the character at other positions within a string.Remember that computers start counting at 0, so the first character is actually the zeroth character.Let's try to set thirdLetterOfLastNameto equal the third letter of the lastName variable.Try looking at the secondLetterOfFirstName variable declaration if you get stuck.
+
+----------
+Answer:
+----------
+var firstName = "Ada";
+
+var secondLetterOfFirstName = firstName[1];
+
+var lastName = "Lovelace";
+
+var thirdLetterOfLastName = lastName[2];
+
+
+// Only change code above this line.
+// We use this function to show you the value of your variable in your output box.
+// You'll learn about functions soon.
+(function(v){return v;})(thirdLetterOfLastName);
+

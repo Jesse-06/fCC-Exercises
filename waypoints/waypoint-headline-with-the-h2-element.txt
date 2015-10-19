@@ -1,0 +1,17 @@
+----------
+Title: Waypoint: Headline with the h2 Element
+----------
+http://freecodecamp.com/challenges/Waypoint:%20Headline%20with%20the%20h2%20Element?solution=%3Ch1%3EHello%20World%3C%2Fh1%3E%0A%3Ch2%3ECatPhotoApp%3C%2Fh2%3E%0A
+
+
+----------
+Instructions:
+----------
+
+
+----------
+Answer:
+----------
+<h1>Hello World</h1>
+<h2>CatPhotoApp</h2>
+

@@ -1,0 +1,17 @@
+----------
+Title: Waypoint: Create a Bootstrap Headline
+----------
+http://freecodecamp.com/challenges/Waypoint:%20Create%20a%20Bootstrap%20Headline?solution=%3Ch3%20class%3D%22text-primary%20text-center%22%3EjQuery%20Playground%3C%2Fh3%3E%0A%0A
+
+
+----------
+Instructions:
+----------
+
+
+----------
+Answer:
+----------
+<h3 class="text-primary text-center">jQuery Playground</h3>
+
+

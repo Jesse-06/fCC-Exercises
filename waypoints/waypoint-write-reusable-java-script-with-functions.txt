@@ -1,0 +1,37 @@
+----------
+Title: Waypoint: Write Reusable JavaScript with Functions
+----------
+http://freecodecamp.com/challenges/Waypoint:%20Write%20Reusable%20JavaScript%20with%20Functions?solution=var%20a%20%3D%204%3B%0Avar%20b%20%3D%205%3B%0A%0Afunction%20ourFunction(a%2C%20b)%20%7B%0A%20%20return%20a%20-%20b%3B%0A%7D%3B%0A%0A%2F%2F%20Create%20a%20function%20called%20myFunction%20that%20returns%20the%20value%20of%20a%20plus%20b.%0A%2F%2F%20Only%20change%20code%20below%20this%20line.%0Afunction%20myFunction(a%2C%20b)%20%7B%0A%20%20return%20a%20%2B%20b%3B%0A%7D%0AmyFunction(4%2C%202)%3B%0A%0A%0A%2F%2F%20Only%20change%20code%20above%20this%20line.%0A%2F%2F%20We%20use%20this%20function%20to%20show%20you%20the%20value%20of%20your%20variable%20in%20your%20output%20box.%0A%2F%2F%20You%27ll%20learn%20about%20functions%20soon.%0Aif(typeof(myFunction)%20!%3D%3D%20%22undefined%22)%7B%0Avar%20f%3DmyFunction(a%2Cb)%3B%0A(function()%7Breturn%20f%3B%7D)()%3B%0A%7D%0A
+
+
+----------
+Instructions:
+----------
+In JavaScript, we can divide up our code into reusable parts called functions.Here's an example of a function:function functionName(a, b) {  return a + b;}After writing the above lines in our code, we can then pass values to our function and the result following the return statement will be returned.For example, we can pass numbers 4 and 2 by “calling” the function later in our code like this: functionName(4, 2).In this example, the function will return the number 6 as this is the result of 4 + 2.Create and call a function called myFunction that returns the sum of a and b.
+
+----------
+Answer:
+----------
+var a = 4;
+var b = 5;
+
+function ourFunction(a, b) {
+  return a - b;
+};
+
+// Create a function called myFunction that returns the value of a plus b.
+// Only change code below this line.
+function myFunction(a, b) {
+  return a + b;
+}
+myFunction(4, 2);
+
+
+// Only change code above this line.
+// We use this function to show you the value of your variable in your output box.
+// You'll learn about functions soon.
+if(typeof(myFunction) !== "undefined"){
+var f=myFunction(a,b);
+(function(){return f;})();
+}
+

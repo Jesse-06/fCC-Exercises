@@ -1,0 +1,32 @@
+----------
+Title: Waypoint: Build JavaScript Objects
+----------
+http://freecodecamp.com/challenges/Waypoint:%20Build%20JavaScript%20Objects?solution=%2F%2F%20var%20ourDog%20%3D%20%7B%0A%2F%2F%20%20%20%22name%22%3A%20%22Camper%22%2C%0A%2F%2F%20%20%20%22legs%22%3A%204%2C%0A%2F%2F%20%20%20%22tails%22%3A%201%2C%0A%2F%2F%20%20%20%22friends%22%3A%20%5B%22everything!%22%5D%0A%2F%2F%20%7D%3B%0A%0A%2F%2F%20Add%20the%20name%20(string)%2C%20legs%20(number)%2C%20tails%20(number)%20and%20friends%20(array)%20properties%20to%20myDog.%0A%2F%2F%20You%20can%20set%20them%20to%20whatever%20you%20want.%0A%0A%2F%2F%20Only%20change%20code%20below%20this%20line.%0A%0Avar%20myDog%20%3D%20%7B%20%22name%22%3A%20%22Spot%22%2C%20%22legs%22%3A%204%2C%20%22tails%22%3A%201%2C%20%22friends%22%3A%20%5B%22lucky%22%2C%20%22charlie%22%5D%20%7D%3B%0A%0A%2F%2F%20Only%20change%20code%20above%20this%20line.%0A%2F%2F%20We%20use%20this%20function%20to%20show%20you%20the%20value%20of%20your%20variable%20in%20your%20output%20box.%0A(function(z)%7Breturn%20z%3B%7D)(myDog)%3B%0A
+
+
+----------
+Instructions:
+----------
+You may have heard the term object before.Objects are similar to arrays, except that instead of using indexes to access and modify their data, you access the data in objects through what are called properties.Here's a sample object:var cat = {  "name": "Whiskers",  "legs": 4,  "tails": 1,  "enemies": ["Water", "Dogs"]};Objects are useful for storing data in a structured way, and can represent real world objects, like a cat.Let's try to make an object that represents a dog called myDog which contains the properties 'name' (String), 'legs' (Number), 'tails' (Number) and 'friends' (Array)!
+
+----------
+Answer:
+----------
+// var ourDog = {
+//   "name": "Camper",
+//   "legs": 4,
+//   "tails": 1,
+//   "friends": ["everything!"]
+// };
+
+// Add the name (string), legs (number), tails (number) and friends (array) properties to myDog.
+// You can set them to whatever you want.
+
+// Only change code below this line.
+
+var myDog = { "name": "Spot", "legs": 4, "tails": 1, "friends": ["lucky", "charlie"] };
+
+// Only change code above this line.
+// We use this function to show you the value of your variable in your output box.
+(function(z){return z;})(myDog);
+

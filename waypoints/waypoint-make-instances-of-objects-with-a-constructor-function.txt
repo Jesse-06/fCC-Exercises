@@ -1,0 +1,26 @@
+----------
+Title: Waypoint: Make Instances of Objects with a Constructor Function
+----------
+http://freecodecamp.com/challenges/Waypoint:%20Make%20Instances%20of%20Objects%20with%20a%20Constructor%20Function?solution=var%20Car%20%3D%20function()%20%7B%0A%20%20%20this.wheels%20%3D%204%3B%0A%7D%3B%0A%0A%2F%2F%20Only%20change%20code%20below%20this%20line.%0Avar%20myCar%20%3D%20new%20Car()%3B%0A%2F%2FAdd%20the%20property%20%22engines%22%20to%20myCar%2C%20and%20make%20it%20a%20number.%0AmyCar.engines%20%3D%201%3B%0A%0A%2F%2F%20Only%20change%20code%20above%20this%20line.%0A(function()%20%7Breturn%20JSON.stringify(myCar)%3B%7D)()%3B%0A
+
+
+----------
+Instructions:
+----------
+Sometimes you'll want to be able to easily create similar objects.Objects have their own attributes, called properties, and their own functions, called methods.A function that creates objects is called a constructor.You can create instances of an object using a constructor.Each new instance of this object inherits all the properties and methods of your original object.Once an instance has been created you can add properties to that instance individually.Add an engines property with a number value to the myCar instance.
+
+----------
+Answer:
+----------
+var Car = function() {
+   this.wheels = 4;
+};
+
+// Only change code below this line.
+var myCar = new Car();
+//Add the property "engines" to myCar, and make it a number.
+myCar.engines = 1;
+
+// Only change code above this line.
+(function() {return JSON.stringify(myCar);})();
+

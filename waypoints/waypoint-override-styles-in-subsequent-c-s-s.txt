@@ -1,0 +1,30 @@
+----------
+Title: Waypoint: Override Styles in Subsequent CSS
+----------
+http://freecodecamp.com/challenges/Waypoint:%20Override%20Styles%20in%20Subsequent%20CSS?solution=%3Cstyle%3E%0A%20%20body%20%7B%0A%20%20%20%20background-color%3A%20black%3B%0A%20%20%20%20font-family%3A%20Monospace%3B%0A%20%20%20%20color%3A%20green%3B%0A%20%20%7D%0A%20%20.pink-text%20%7B%0A%20%20%20%20color%3A%20pink%3B%0A%20%20%7D%0A%20%20%0A%20%20.blue-text%20%7B%0A%20%20%20%20color%3A%20blue%3B%0A%20%20%7D%0A%3C%2Fstyle%3E%0A%3Ch1%20class%3D%22%20blue-text%20pink-text%22%3EHello%20World!%3C%2Fh1%3E%0A
+
+
+----------
+Instructions:
+----------
+
+
+----------
+Answer:
+----------
+<style>
+  body {
+    background-color: black;
+    font-family: Monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+  
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 class=" blue-text pink-text">Hello World!</h1>
+

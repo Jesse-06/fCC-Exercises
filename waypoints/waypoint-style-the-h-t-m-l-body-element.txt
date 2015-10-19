@@ -1,0 +1,20 @@
+----------
+Title: Waypoint: Style the HTML Body Element
+----------
+http://freecodecamp.com/challenges/Waypoint:%20Style%20the%20HTML%20Body%20Element?solution=%3Cstyle%3E%0Abody%20%7B%0A%20%20background-color%3A%20black%3B%0A%7D%0A%3C%2Fstyle%3E%0A
+
+
+----------
+Instructions:
+----------
+
+
+----------
+Answer:
+----------
+<style>
+body {
+  background-color: black;
+}
+</style>
+

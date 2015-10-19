@@ -1,0 +1,26 @@
+----------
+Title: Waypoint: Sift through Text with Regular Expressions
+----------
+http://freecodecamp.com/challenges/Waypoint:%20Sift%20through%20Text%20with%20Regular%20Expressions?solution=var%20test%20%3D%20(function()%20%7B%0A%20%20var%20testString%20%3D%20%22Ada%20Lovelace%20and%20Charles%20Babbage%20designed%20the%20first%20computer%20and%20the%20software%20that%20would%20have%20run%20on%20it.%22%3B%0A%20%20var%20expressionToGetSoftware%20%3D%20%2Fsoftware%2Fgi%3B%0A%20%20%2F%2F%20Only%20change%20code%20below%20this%20line.%0A%0A%20%20var%20expression%20%3D%20%2Fand%2Fgi%3B%0A%0A%20%20%2F%2F%20Only%20change%20code%20above%20this%20line.%0A%20%20%2F%2F%20We%20use%20this%20function%20to%20show%20you%20the%20value%20of%20your%20variable%20in%20your%20output%20box.%0A%20%20return%20testString.match(expression).length%3B%0A%7D)()%3B(function()%7Breturn%20test%3B%7D)()%3B%0A
+
+
+----------
+Instructions:
+----------
+Regular expressions are used to find certain words or patterns inside of strings.For example, if we wanted to find the word the in the string The dog chased the cat, we could use the following regular expression: /the/giLet's break this down a bit:the is the pattern we want to match.g means that we want to search the entire string for this pattern instead of just the first match.i means that we want to ignore the case (uppercase or lowercase) when searching for the pattern.Regular expressions are written by surrounding the pattern with / symbols.Let's try selecting all the occurrences of the word and in the string Ada Lovelace and Charles Babbage designed the first computer and the software that would have run on it. We can do this by replacing the . part of our regular expression with the current regular expression with the word and.
+
+----------
+Answer:
+----------
+var test = (function() {
+  var testString = "Ada Lovelace and Charles Babbage designed the first computer and the software that would have run on it.";
+  var expressionToGetSoftware = /software/gi;
+  // Only change code below this line.
+
+  var expression = /and/gi;
+
+  // Only change code above this line.
+  // We use this function to show you the value of your variable in your output box.
+  return testString.match(expression).length;
+})();(function(){return test;})();
+

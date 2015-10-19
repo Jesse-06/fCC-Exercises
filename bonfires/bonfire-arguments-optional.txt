@@ -1,0 +1,42 @@
+----------
+Title: Bonfire: Arguments Optional
+----------
+http://freecodecamp.com/challenges/Bonfire:%20Arguments%20Optional?solution=function%20add(x)%20%7B%0A%20%20%0A%20%20if(!arguments%5B0%5D)%20return%20undefined%3B%0A%20%20%0A%20%20if(!arguments%5B1%5D)%20%7B%0A%20%20%20%20if(typeof%20arguments%5B0%5D%20!%3D%20%22number%22)%20return%20undefined%3B%0A%20%20%20%20%0A%20%20%20%20return%20function(y)%20%7B%0A%20%20%20%20%20%20if(typeof%20arguments%5B0%5D%20!%3D%22number%22)%20return%20undefined%3B%0A%20%20%20%20%20%20sum%20%3D%20x%20%2B%20y%3B%0A%20%20%20%20%20%20console.log(sum)%0A%20%20%20%20%20%20return%20sum%3B%0A%20%20%20%20%7D%0A%20%20%7D%0A%20%20%0A%20%20if(typeof%20arguments%5B0%5D%20!%3D%20%22number%22%20%7C%7C%20typeof%20arguments%5B1%5D%20!%3D%20%22number%22)%20%7B%0A%20%20%20%20return%20undefined%3B%0A%20%20%7D%0A%0A%20%20var%20argArray%20%3D%20%5B%5D.slice.apply(arguments)%3B%0A%20%20var%20sum%20%3D%20argArray.reduce(function(a%2C%20b)%20%7B%0A%20%20%20%20return%20a%20%2B%20b%0A%20%20%7D)%0A%20%20%0A%20%20return%20sum%3B%0A%7D%0A%0Aadd(2)(%5B3%5D)
+
+
+----------
+Instructions:
+----------
+Create a function that sums two arguments together. If only one argument is provided, then return a function that expects one argument and returns the sum.For example, add(2, 3) should return 5, and add(2) should return a function.Calling this returned function with a single argument will then return the sum:var sumTwoAnd = add(2);sumTwoAnd(3) returns 5.If either argument isn't a valid number, return undefined.Remember to use Read-Search-Ask if you get stuck. Try to pair program. Write your own code.
+
+----------
+Answer:
+----------
+function add(x) {
+  
+  if(!arguments[0]) return undefined;
+  
+  if(!arguments[1]) {
+    if(typeof arguments[0] != "number") return undefined;
+    
+    return function(y) {
+      if(typeof arguments[0] !="number") return undefined;
+      sum = x + y;
+      console.log(sum)
+      return sum;
+    }
+  }
+  
+  if(typeof arguments[0] != "number" || typeof arguments[1] != "number") {
+    return undefined;
+  }
+
+  var argArray = [].slice.apply(arguments);
+  var sum = argArray.reduce(function(a, b) {
+    return a + b
+  })
+  
+  return sum;
+}
+
+add(2)([3])
