@@ -7,9 +7,17 @@ http://freecodecamp.com/challenges/Bonfire:%20Convert
 ----------
 Instructions:
 ----------
-Convert the characters "&", "", '"' (double quote), and "'" (apostrophe), in a string to their corresponding HTML entities.Remember to use Read-Search-Ask if you get stuck. Try to pair program. Write your own code.
+Convert the characters "&", "", '"' (double quote), and "'" (apostrophe), in a string to their corresponding HTML entities. Remember to use Read-Search-Ask if you get stuck. Try to pair program. Write your own code.
 
 ----------
 Answer:
 ----------
-eecodecamp.com/challenges/Bonfire: Convert
+function convert(str) {
+  return String(str).replace(/&/g, '&amp;')
+  .replace(/</g, '&lt;')
+  .replace(/>/g, '&gt;')
+  .replace(/"/g, '&quot;')
+  .replace(/'/g, '&apos;');
+}
+
+convert("Dolce & Gabbana");
