@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Target%20Even%20Numbered%20Elemen
 ----------
 Instructions:
 ----------
-
+You can also target all the even-numbered elements.Here's how you would target all the odd-numbered elements with class target and give them classes: $(".target:odd").addClass("animated shake");Note that jQuery is zero-indexed, meaning that, counter-intuitively, :odd selects the second element, fourth element, and so on.Try selecting all the even-numbered elements - that is, what your browser will consider even-numbered elements - and giving them the classes of animated and shake.
 
 ----------
 Answer:

@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Use%20RGB%20to%20Color%20Elements
 ----------
 Instructions:
 ----------
-
+Just like with hex code, you can represent different colors in RGB by using combinations of different values.These values follow the pattern of RGB: the first number represents red, the second number represents green, and the third number represents blue.Change the body element's background color to the RGB value red: rgb(255, 0, 0)
 
 ----------
 Answer:

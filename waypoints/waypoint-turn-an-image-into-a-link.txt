@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Turn%20an%20Image%20into%20a%20Li
 ----------
 Instructions:
 ----------
-
+You can make elements into links by nesting them within an a element.Nest your image within an a element. Here's an example: <a href="#"><img src="http://bit.ly/fcc-running-cats"/></a>.Remember to use # as your a element's href property in order to turn it into a dead link.Once you've done this, hover over your image with your cursor. Your cursor's normal pointer should become the link clicking pointer. The photo is now a link.
 
 ----------
 Answer:

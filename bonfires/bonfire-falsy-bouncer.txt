@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Bonfire:%20Falsy%20Bouncer?solution=function%
 ----------
 Instructions:
 ----------
-Remove all falsy values from an array.Falsy values in javascript are false, null, 0, "", undefined, and NaN.Remember to use Read-Search-Ask if you get stuck. Write your own code.
+Remove all falsy values from an array.Falsy values in javascript are false, null, 0, "", undefined, and NaN.Remember to use Read-Search-Ask if you get stuck. Write your own code.Here are some helpful links:Boolean ObjectsArray.filter()
 
 ----------
 Answer:

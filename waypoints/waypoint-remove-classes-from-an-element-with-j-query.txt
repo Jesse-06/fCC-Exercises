@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Remove%20Classes%20from%20an%20el
 ----------
 Instructions:
 ----------
-
+In the same way you can add classes to an element with jQuery's addClass() function, you can remove them with jQuery's removeClass() function.Here's how you would do this for a specific button, add $("#target2").removeClass("btn-default");Let's remove the btn-default class from all of our button elements.
 
 ----------
 Answer:

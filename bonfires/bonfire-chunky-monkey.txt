@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Bonfire:%20Chunky%20Monkey?solution=function%
 ----------
 Instructions:
 ----------
-Write a function that splits an array (first argument) into groups the length of size (second argument) and returns them as a multidimensional array.Remember to use Read-Search-Ask if you get stuck. Write your own code.
+Write a function that splits an array (first argument) into groups the length of size (second argument) and returns them as a multidimensional array.Remember to use Read-Search-Ask if you get stuck. Write your own code.Here are some helpful links:Array.push()
 
 ----------
 Answer:

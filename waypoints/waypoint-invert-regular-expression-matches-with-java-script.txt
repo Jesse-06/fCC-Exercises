@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Invert%20Regular%20Expression%20M
 ----------
 Instructions:
 ----------
-Use /\S/g to match everything that isn't a space in the string.You can invert any match by using the uppercase version of the selector \s versus \S for example.
+Use /\S/g to match everything that isn't a space in the string.You can invert any match by using the uppercase version of the selector \s versus \S for example.Here are some helpful links:
 
 ----------
 Answer:

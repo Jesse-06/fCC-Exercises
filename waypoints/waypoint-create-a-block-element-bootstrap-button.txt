@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Create%20a%20Block%20Element%20Bo
 ----------
 Instructions:
 ----------
-
+Normally, your button elements are only as wide as the text that they contain. By making them block elements, your button will stretch to fill your page's entire horizontal space.This image illustrates the difference between inline elements and block-level elements:Note that these buttons still need the btn class.Add Bootstrap's btn-block class to your Bootstrap button.
 
 ----------
 Answer:

@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Generate%20Random%20Whole%20Numbe
 ----------
 Instructions:
 ----------
-We can use a certain mathematical expression to get a random number between two numbers.Math.floor(Math.random() * (max - min + 1)) + minBy using this, we can control the output of a random number.
+We can use a certain mathematical expression to get a random number between two numbers.Math.floor(Math.random() * (max - min + 1)) + minBy using this, we can control the output of a random number.Here are some helpful links:
 
 ----------
 Answer:

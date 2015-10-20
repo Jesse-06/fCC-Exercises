@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Give%20a%20Background%20Color%20t
 ----------
 Instructions:
 ----------
-
+You can set an element's background color with the background-color property.For example, if you wanted an element's background color to be green, you'd use .green-background { background-color: green; } within your style element.Create a class called gray-background with the background-color of gray. Assign this class to your div element.
 
 ----------
 Answer:

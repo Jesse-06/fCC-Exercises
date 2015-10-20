@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Fill%20in%20the%20Blank%20with%20
 ----------
 Instructions:
 ----------
-
+Web developers traditionally use lorem ipsum text as placeholder text. It's called lorem ipsum text because those are the first two words of a famous passage by Cicero of Ancient Rome.lorem ipsum text has been used as placeholder text by typesetters since the 16th century, and this tradition continues on the web.Well, 5 centuries is long enough. Since we're building a CatPhotoApp, let's use something called kitty ipsum text.Replace the text inside your p element with the first few words of this kitty ipsum text: Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.
 
 ----------
 Answer:

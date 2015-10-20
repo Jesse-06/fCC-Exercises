@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Change%20the%20Font%20Size%20of%2
 ----------
 Instructions:
 ----------
-
+Create a second p element with the following kitty ipsum text: Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.Then, inside your <style> element, set the font-size of all p elements to 16 pixels.Font size is controlled by the font-size CSS property, like this: h1 { font-size: 30px; }.See if you can figure out how to give both of your p elements the font-size of 16 pixels (16px). You can do this inside the same <style> tag that we created for your red-text class.
 
 ----------
 Answer:

@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Subtract%20One%20Number%20from%20
 ----------
 Instructions:
 ----------
-We can also subtract one number from another.JavaScript uses the - symbol for subtraction.Replace the 0 with the correct number so you can get the result mentioned in the comment.
+We can also subtract one number from another.JavaScript uses the - symbol for subtraction.Replace the 0 with the correct number so you can get the result mentioned in the comment.Here are some helpful links:
 
 ----------
 Answer:

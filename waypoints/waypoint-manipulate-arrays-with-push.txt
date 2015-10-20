@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Manipulate%20Arrays%20With%20push
 ----------
 Instructions:
 ----------
-Not only can you pop() data off of the end of an array, you can also push() data onto the end of an array.Take the myArray array and push() this value to the end of it: ["dog", 3].
+Not only can you pop() data off of the end of an array, you can also push() data onto the end of an array.Take the myArray array and push() this value to the end of it: ["dog", 3].Here are some helpful links:
 
 ----------
 Answer:

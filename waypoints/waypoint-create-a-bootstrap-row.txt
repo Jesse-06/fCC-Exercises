@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Create%20a%20Bootstrap%20Row?solu
 ----------
 Instructions:
 ----------
-
+Now we'll create a Bootstrap row for our inline elements.Create a div element with the class row.
 
 ----------
 Answer:

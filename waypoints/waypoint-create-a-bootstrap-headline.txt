@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Create%20a%20Bootstrap%20Headline
 ----------
 Instructions:
 ----------
-
+Now let's build something from scratch to practice our HTML, CSS and Bootstrap skills.We'll build a jQuery playground, which we'll soon put to use in our jQuery challenges.To start with, create an h3 element, with the text jQuery Playground.Color your h3 element with the text-primary Bootstrap class, and center it with the text-center Bootstrap class.
 
 ----------
 Answer:

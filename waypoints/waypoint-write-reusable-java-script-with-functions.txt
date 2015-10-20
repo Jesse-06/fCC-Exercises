@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Write%20Reusable%20JavaScript%20w
 ----------
 Instructions:
 ----------
-In JavaScript, we can divide up our code into reusable parts called functions.Here's an example of a function:function functionName(a, b) {  return a + b;}After writing the above lines in our code, we can then pass values to our function and the result following the return statement will be returned.For example, we can pass numbers 4 and 2 by “calling” the function later in our code like this: functionName(4, 2).In this example, the function will return the number 6 as this is the result of 4 + 2.Create and call a function called myFunction that returns the sum of a and b.
+In JavaScript, we can divide up our code into reusable parts called functions.Here's an example of a function:function functionName(a, b) {  return a + b;}After writing the above lines in our code, we can then pass values to our function and the result following the return statement will be returned.For example, we can pass numbers 4 and 2 by “calling” the function later in our code like this: functionName(4, 2).In this example, the function will return the number 6 as this is the result of 4 + 2.Create and call a function called myFunction that returns the sum of a and b.Here are some helpful links:
 
 ----------
 Answer:

@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Create%20an%20Ordered%20List?solu
 ----------
 Instructions:
 ----------
-
+HTML has a special element for creating ordered lists, or numbered-style lists.Ordered lists start with a <ol> element. Then they contain some number of <li> elements.For example:<ol>  <li>hydrogen</li>  <li>helium</li></ol>would create a numbered list of "hydrogen" and "helium".Create an ordered list of the top 3 things cats hate the most.
 
 ----------
 Answer:

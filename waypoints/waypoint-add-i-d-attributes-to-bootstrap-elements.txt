@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Add%20ID%20Attributes%20to%20Boot
 ----------
 Instructions:
 ----------
-
+Recall that in addition to class attributes, you can give each of your elements an id attribute.Each id should be unique to a specific element.Let's give a unique id to each of our div elements of class well.Remember that you can give an element an id like this: <div class="well" id="center-well">Give the well on the left the id of left-well. Give the well on the right the id of right-well.
 
 ----------
 Answer:

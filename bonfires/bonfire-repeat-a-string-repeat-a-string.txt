@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Bonfire:%20Repeat%20a%20string%20repeat%20a%2
 ----------
 Instructions:
 ----------
-Repeat a given string (first argument) n times (second argument). Return an empty string if n is a negative number.Remember to use Read-Search-Ask if you get stuck. Write your own code.
+Repeat a given string (first argument) n times (second argument). Return an empty string if n is a negative number.Remember to use Read-Search-Ask if you get stuck. Write your own code.Here are some helpful links:Global String Object
 
 ----------
 Answer:

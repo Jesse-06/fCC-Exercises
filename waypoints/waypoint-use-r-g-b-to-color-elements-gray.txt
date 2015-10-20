@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Use%20RGB%20to%20Color%20Elements
 ----------
 Instructions:
 ----------
-
+With RGB values, we can make an element gray by using combinations of the same value for all three colors.Change the body element's background color to the RGB value for gray: rgb(128, 128, 128)
 
 ----------
 Answer:

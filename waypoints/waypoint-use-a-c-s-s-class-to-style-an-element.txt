@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Use%20a%20CSS%20Class%20to%20Styl
 ----------
 Instructions:
 ----------
-
+Create a CSS class called red-text and apply it to your h2 element.Classes are reusable styles that can be added to HTML elements.Here's an example CSS class declaration:<style>  .blue-text {    color: blue;  }</style>You can see that we've created a CSS class called blue-text within the <style> tag.You can apply a class to an HTML element like this: <h2 class="blue-text">CatPhotoApp</h2>.Note that in your CSS style element, classes should start with a period. In your HTML elements' class declarations, classes shouldn't start with a period.Instead of creating a new style element, try removing the h2 style declaration from your existing style element, then replace it with the class declaration for .red-text.
 
 ----------
 Answer:

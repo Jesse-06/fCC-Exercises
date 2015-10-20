@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Target%20the%20same%20element%20w
 ----------
 Instructions:
 ----------
-
+Now you know three ways of targeting elements: by type: $("button"), by class: $(".btn"), and by id $("#target1").Use each of these jQuery selectors to target your button element with the class btn and the id target1.Use the addClass() jQuery function to give the element one new class for each selector: animated, shake, and btn-primary.
 
 ----------
 Answer:

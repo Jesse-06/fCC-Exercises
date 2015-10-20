@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Add%20Font%20Awesome%20Icons%20to
 ----------
 Instructions:
 ----------
-
+Font Awesome is a convenient library of icons. These icons are vector graphics, stored in the .svg file format. These icons are treated just like fonts. You can specify their size using pixels, and they will assume the font size of their parent HTML elements.Use Font Awesome to add a info-circle icon to your info button and a trash icon to your delete button.
 
 ----------
 Answer:

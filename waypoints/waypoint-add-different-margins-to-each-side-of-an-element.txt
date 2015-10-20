@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Add%20Different%20Margins%20to%20
 ----------
 Instructions:
 ----------
-
+Give the green box a margin of 40px on its top and left side, but only 20px on its bottom and right side.Sometimes you will want to customize an element so that it has a different margin on each of its sides.CSS allows you to control the margin of an element on all four sides with margin-top, margin-right, margin-bottom, and margin-left properties.
 
 ----------
 Answer:

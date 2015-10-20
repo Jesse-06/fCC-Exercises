@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Perform%20Arithmetic%20Operations
 ----------
 Instructions:
 ----------
-In JavaScript, you can also perform calculations with decimal numbers, just like whole numbers.Replace the 0.0 with the correct number so that you get the result mentioned in the comments.
+In JavaScript, you can also perform calculations with decimal numbers, just like whole numbers.Replace the 0.0 with the correct number so that you get the result mentioned in the comments.Here are some helpful links:
 
 ----------
 Answer:

@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Declare%20String%20Variables?solu
 ----------
 Instructions:
 ----------
-In the previous challenge, we used the code var myName = "your name". This is what we call a String variable. It is nothing more than a "string" of characters. JavaScript strings are always wrapped in quotes.Now let's create two new string variables: myFirstNameand myLastName and assign them the values of your first and last name, respectively.
+In the previous challenge, we used the code var myName = "your name". This is what we call a String variable. It is nothing more than a "string" of characters. JavaScript strings are always wrapped in quotes.Now let's create two new string variables: myFirstNameand myLastName and assign them the values of your first and last name, respectively.Here are some helpful links:
 
 ----------
 Answer:

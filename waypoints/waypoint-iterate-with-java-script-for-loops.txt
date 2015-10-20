@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Iterate%20with%20JavaScript%20For
 ----------
 Instructions:
 ----------
-You can run the same code multiple times by using a loop.The most common type of JavaScript loop is called a "for loop" because it runs "for" a specific number of times.var ourArray = [];for(var i = 0; i < 5; i++) {  ourArray.push(i);}ourArray will now contain [0,1,2,3,4] Let's try getting a for loop to work by pushing values to an array.
+You can run the same code multiple times by using a loop.The most common type of JavaScript loop is called a "for loop" because it runs "for" a specific number of times.var ourArray = [];for(var i = 0; i < 5; i++) {  ourArray.push(i);}ourArray will now contain [0,1,2,3,4] Let's try getting a for loop to work by pushing values to an array.Here are some helpful links:
 
 ----------
 Answer:

@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Use%20Bracket%20Notation%20to%20F
 ----------
 Instructions:
 ----------
-Bracket notation is a way to get a character at a specific index within a string.Computers don't start counting at 1 like humans do. They start at 0.For example, the character at index 0 in the word "Charles" is "C". So if var firstName = "Charles", you can get the value of the first letter of the string by using firstName[0].Use bracket notation to find the first character in the firstLetterOfLastName variable.Try looking at the firstLetterOfFirstName variable declaration if you get stuck.
+Bracket notation is a way to get a character at a specific index within a string.Computers don't start counting at 1 like humans do. They start at 0.For example, the character at index 0 in the word "Charles" is "C". So if var firstName = "Charles", you can get the value of the first letter of the string by using firstName[0].Use bracket notation to find the first character in the firstLetterOfLastName variable.Try looking at the firstLetterOfFirstName variable declaration if you get stuck.Here are some helpful links:
 
 ----------
 Answer:

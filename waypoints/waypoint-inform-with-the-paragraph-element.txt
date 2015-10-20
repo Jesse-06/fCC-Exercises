@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Inform%20with%20the%20Paragraph%2
 ----------
 Instructions:
 ----------
-
+Create a p element below your h2 element, and give it the text "Hello Paragraph".p elements are the preferred element for normal-sized paragraph text on websites. P is short for "paragraph".You can create a p element like so: <p>I'm a p tag!</p>.
 
 ----------
 Answer:

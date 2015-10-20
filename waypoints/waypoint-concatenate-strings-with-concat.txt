@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Concatenate%20Strings%20with%20co
 ----------
 Instructions:
 ----------
-.concat() can be used to merge the contents of two arrays into one.array = array.concat(otherArray);Use .concat() to concatenate concatMe onto the end of array and assign it back to array.
+.concat() can be used to merge the contents of two arrays into one.array = array.concat(otherArray);Use .concat() to concatenate concatMe onto the end of array and assign it back to array.Here are some helpful links:Array.concat()
 
 ----------
 Answer:

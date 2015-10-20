@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Use%20Conditional%20Logic%20with%
 ----------
 Instructions:
 ----------
-We can use if statements in JavaScript to only execute code if a certain condition is met.if statements require some sort of boolean condition to evaluate.For example: if (1 === 2) {  return true;} else {  return false;}Let's use if and else statements to make a coin-flip game.Create if and else statements to return the string "heads" if the flip variable is zero, or else return the string "tails" if the flip variable is not zero.
+We can use if statements in JavaScript to only execute code if a certain condition is met.if statements require some sort of boolean condition to evaluate.For example: if (1 === 2) {  return true;} else {  return false;}Let's use if and else statements to make a coin-flip game.Create if and else statements to return the string "heads" if the flip variable is zero, or else return the string "tails" if the flip variable is not zero.Here are some helpful links:
 
 ----------
 Answer:

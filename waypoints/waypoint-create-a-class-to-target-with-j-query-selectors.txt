@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Create%20a%20Class%20to%20Target%
 ----------
 Instructions:
 ----------
-
+Not every class needs to have corresponding CSS. Sometimes we create classes just for the purpose of selecting these elements more easily using jQuery.Give each of your button elements the class target.
 
 ----------
 Answer:

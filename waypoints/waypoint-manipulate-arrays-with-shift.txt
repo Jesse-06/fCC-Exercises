@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Manipulate%20Arrays%20With%20shif
 ----------
 Instructions:
 ----------
-pop() always removes the last element of an array. What if you want to remove the first? That's where .shift() comes in.Take the myArray array and shift() the first value off of it. Set myRemoved to the first value of myArray using shift().
+pop() always removes the last element of an array. What if you want to remove the first? That's where .shift() comes in.Take the myArray array and shift() the first value off of it. Set myRemoved to the first value of myArray using shift().Here are some helpful links:
 
 ----------
 Answer:

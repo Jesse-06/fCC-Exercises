@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Access%20Array%20Data%20with%20In
 ----------
 Instructions:
 ----------
-We can access the data inside arrays using indexes.Array indexes are written in the same bracket notation that strings use, except that instead of specifying a character, they are specifying an entry in the array.For example:var array = [1,2,3];array[0]; //equals 1var data = array[1];Create a variable called myData and set it to equal the first value of myArray.
+We can access the data inside arrays using indexes.Array indexes are written in the same bracket notation that strings use, except that instead of specifying a character, they are specifying an entry in the array.For example:var array = [1,2,3];array[0]; //equals 1var data = array[1];Create a variable called myData and set it to equal the first value of myArray.Here are some helpful links:
 
 ----------
 Answer:

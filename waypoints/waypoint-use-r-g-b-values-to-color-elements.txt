@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Use%20RGB%20values%20to%20Color%2
 ----------
 Instructions:
 ----------
-
+Another way you can represent colors in CSS is by using rgb values.RGB values look like this: rgb(0, 0, 0) for black and rgb(255, 255, 255) for white.Instead of using six hexadecimal digits like you do with hex code, with rgb you specify the brightness of each color with a number between 0 and 255.If you do the math, 16 times 16 is 256 total values. So rgb, which starts counting from zero, has the exact same number of possible values as hex code.Let's replace the hex code in our body element's background color with the RGB value for black: rgb(0, 0, 0)
 
 ----------
 Answer:

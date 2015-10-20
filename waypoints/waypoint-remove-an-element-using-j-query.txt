@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Remove%20an%20Element%20Using%20j
 ----------
 Instructions:
 ----------
-
+Now let's remove an HTML element from your page using jQuery.jQuery has a function called .remove() that will remove an HTML element entirelyRemove element target4 from the page by using the .remove() function.
 
 ----------
 Answer:

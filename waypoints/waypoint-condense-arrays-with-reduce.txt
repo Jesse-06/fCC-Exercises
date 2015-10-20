@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Condense%20arrays%20with%20reduce
 ----------
 Instructions:
 ----------
-Reduce can be useful for condensing an array of numbers into one value.var singleVal = array.reduce(function(previousVal, currentVal){  return previousVal+currentVal;});Use the reduce function to sum all the values in array and assign it to singleVal.
+Reduce can be useful for condensing an array of numbers into one value.var singleVal = array.reduce(function(previousVal, currentVal){  return previousVal+currentVal;});Use the reduce function to sum all the values in array and assign it to singleVal.Here are some helpful links:Array.reduce()
 
 ----------
 Answer:

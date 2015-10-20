@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Use%20RGB%20to%20Color%20Elements
 ----------
 Instructions:
 ----------
-
+Change the body element's background color to the RGB value blue: rgb(0, 0, 255)
 
 ----------
 Answer:

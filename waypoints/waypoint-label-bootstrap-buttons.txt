@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Label%20Bootstrap%20Buttons?solut
 ----------
 Instructions:
 ----------
-
+Just like we labeled our wells, we want to label our buttons.Give each of your button elements text that corresponds to their id.
 
 ----------
 Answer:

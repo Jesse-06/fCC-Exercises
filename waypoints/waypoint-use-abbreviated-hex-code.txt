@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Use%20Abbreviated%20Hex%20Code?so
 ----------
 Instructions:
 ----------
-
+Many people feel overwhelmed by the possibilities of more than 16 million colors. And it's difficult to remember hex code. Fortunately, you can shorten it.For example, red, which is #FF0000 in hex code, can be shortened to #F00. That is, one digit for red, one digit for green, one digit for blue.This reduces the total number of possible colors to around 4,000. But browsers will interpret #FF0000 and #F00 as exactly the same color.Go ahead, try using #F00 to turn the body element's background-color red.
 
 ----------
 Answer:

@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Add%20Rounded%20Corners%20with%20
 ----------
 Instructions:
 ----------
-
+Your cat photo currently has sharp corners. We can round out those corners with a CSS property called border-radius.You can specify a border-radius with pixels. This will affect how rounded the corners are. Add this property to your thick-green-border class and set it to 10px.Give your cat photo a border-radius of 10px.
 
 ----------
 Answer:

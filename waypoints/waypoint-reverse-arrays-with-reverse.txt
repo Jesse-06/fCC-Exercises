@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Reverse%20Arrays%20with%20reverse
 ----------
 Instructions:
 ----------
-You can use the reverse function to reverse the contents of an array.Add a line of code that uses reverse to reverse the array variable.
+You can use the reverse function to reverse the contents of an array.Add a line of code that uses reverse to reverse the array variable.Here are some helpful links:Array.reverse()
 
 ----------
 Answer:

@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Use%20Bracket%20Notation%20to%20F
 ----------
 Instructions:
 ----------
-In order to get the last letter of a string, you can subtract one from the string's length.For example, you can get the value of the third-to-last letter of the var firstName = "Charles" string by using firstName[firstName.length - 3].Use bracket notation to find the second-to-last character in the lastName string.Try looking at the thirdToLastLetterOfFirstName variable declaration if you get stuck.
+In order to get the last letter of a string, you can subtract one from the string's length.For example, you can get the value of the third-to-last letter of the var firstName = "Charles" string by using firstName[firstName.length - 3].Use bracket notation to find the second-to-last character in the lastName string.Try looking at the thirdToLastLetterOfFirstName variable declaration if you get stuck.Here are some helpful links:
 
 ----------
 Answer:

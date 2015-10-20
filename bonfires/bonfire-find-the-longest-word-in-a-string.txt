@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Bonfire:%20Find%20the%20Longest%20Word%20in%2
 ----------
 Instructions:
 ----------
-Return the length of the longest word in the provided sentence.Your response should be a number.Remember to use Read-Search-Ask if you get stuck. Write your own code.
+Return the length of the longest word in the provided sentence.Your response should be a number.Remember to use Read-Search-Ask if you get stuck. Write your own code.Here are some helpful links:String.split()String.length
 
 ----------
 Answer:

@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Style%20Multiple%20Elements%20wit
 ----------
 Instructions:
 ----------
-
+Apply the red-text class to your h2 and p elements.Remember that you can attach classes to HTML elements by using class="your-class-here" within the relevant element's opening tag.Remember that CSS class selectors require a period at the beginning like this: .blue-text { color: blue; }, but that class declarations don't use a period, like this: <h2 class="blue-text">CatPhotoApp<h2>.
 
 ----------
 Answer:

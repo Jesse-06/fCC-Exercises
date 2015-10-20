@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Apply%20the%20Default%20Bootstrap
 ----------
 Instructions:
 ----------
-
+Bootstrap has another button class called btn-default.Apply both the btn and btn-default classes to each of your button elements.
 
 ----------
 Answer:

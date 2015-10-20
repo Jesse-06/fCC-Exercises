@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Create%20a%20Text%20Field?solutio
 ----------
 Instructions:
 ----------
-
+Now let's create a web form.Text inputs are a convenient way to get input from your user.You can create one like this: <input type="text">. Note that input elements are self-closing.Create an input element of type text below your lists.
 
 ----------
 Answer:

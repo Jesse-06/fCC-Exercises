@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Make%20Circular%20Images%20with%2
 ----------
 Instructions:
 ----------
-
+In addition to pixels, you can also specify a border-radius using a percentage.Give your cat photo a border-radius of 50%.
 
 ----------
 Answer:

@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Declare%20JavaScript%20Variables?
 ----------
 Instructions:
 ----------
-When we store data in a data structure, we call it a variable. These variables are no different from the x and y variables you use in math.Let's create our first variable and call it "myName".You'll notice that in myName, we didn't use a space, and that the "N" is capitalized. JavaScript variables are written in camel case. An example of camel case is: camelCase.Now, use the var keyword to create a variable called myName. Set its value to your name, in double quotes.Look at the ourName example if you get stuck.
+When we store data in a data structure, we call it a variable. These variables are no different from the x and y variables you use in math.Let's create our first variable and call it "myName".You'll notice that in myName, we didn't use a space, and that the "N" is capitalized. JavaScript variables are written in camel case. An example of camel case is: camelCase.Now, use the var keyword to create a variable called myName. Set its value to your name, in double quotes.Look at the ourName example if you get stuck.Here are some helpful links:
 
 ----------
 Answer:

@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Use%20Hex%20Code%20to%20Color%20E
 ----------
 Instructions:
 ----------
-
+0 is the lowest number in hex code, and represents a complete absence of color.F is the highest number in hex code, and it represents the maximum possible brightness.Let's turn our body element's background-color white by changing its hex code to #FFFFFF.
 
 ----------
 Answer:

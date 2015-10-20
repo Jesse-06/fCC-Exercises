@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Use%20Bracket%20Notation%20to%20F
 ----------
 Instructions:
 ----------
-You can also use bracket Notationto get the character at other positions within a string.Remember that computers start counting at 0, so the first character is actually the zeroth character.Let's try to set thirdLetterOfLastNameto equal the third letter of the lastName variable.Try looking at the secondLetterOfFirstName variable declaration if you get stuck.
+You can also use bracket Notationto get the character at other positions within a string.Remember that computers start counting at 0, so the first character is actually the zeroth character.Let's try to set thirdLetterOfLastNameto equal the third letter of the lastName variable.Try looking at the secondLetterOfFirstName variable declaration if you get stuck.Here are some helpful links:
 
 ----------
 Answer:

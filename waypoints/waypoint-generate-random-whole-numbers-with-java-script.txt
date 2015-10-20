@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Generate%20Random%20Whole%20Numbe
 ----------
 Instructions:
 ----------
-It's great that we can create random decimal numbers, but it's even more useful if we use it to generate a random whole number.To achieve this we can multiply the random number by ten and use the Math.floor() to convert the decimal number to the nearest less than or equal whole number.This technique gives us a whole number between zero and nine.Example:Math.floor(Math.random()*10);Let's give this technique a go now.
+It's great that we can create random decimal numbers, but it's even more useful if we use it to generate a random whole number.To achieve this we can multiply the random number by ten and use the Math.floor() to convert the decimal number to the nearest less than or equal whole number.This technique gives us a whole number between zero and nine.Example:Math.floor(Math.random()*10);Let's give this technique a go now.Here are some helpful links:
 
 ----------
 Answer:

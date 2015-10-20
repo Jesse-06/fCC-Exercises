@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Nest%20one%20Array%20within%20Ano
 ----------
 Instructions:
 ----------
-You can also nest arrays within other arrays, like this: [["Bulls", 23]].Let's now go create a nested array called myArray.
+You can also nest arrays within other arrays, like this: [["Bulls", 23]].Let's now go create a nested array called myArray.Here are some helpful links:
 
 ----------
 Answer:

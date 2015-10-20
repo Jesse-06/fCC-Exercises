@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Add%20Two%20Numbers%20with%20Java
 ----------
 Instructions:
 ----------
-Let's try to add two numbers using JavaScript.JavaScript uses the + symbol for addition.Replace the 0 with the correct number so you can get the result mentioned in the comment.
+Let's try to add two numbers using JavaScript.JavaScript uses the + symbol for addition.Replace the 0 with the correct number so you can get the result mentioned in the comment.Here are some helpful links:
 
 ----------
 Answer:

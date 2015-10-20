@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Store%20Multiple%20Values%20in%20
 ----------
 Instructions:
 ----------
-With JavaScript array variables, we can store several pieces of data in one place.You start an array declaration with an opening square bracket, end it with a closing square bracket, and put a comma between each entry, like this: var sandwich = ["peanut butter", "jelly", "bread"].Now let's create a new array called myArray that contains both a string and a number (in that order).Refer to the commented code in the text editor if you get stuck.
+With JavaScript array variables, we can store several pieces of data in one place.You start an array declaration with an opening square bracket, end it with a closing square bracket, and put a comma between each entry, like this: var sandwich = ["peanut butter", "jelly", "bread"].Now let's create a new array called myArray that contains both a string and a number (in that order).Refer to the commented code in the text editor if you get stuck.Here are some helpful links:
 
 ----------
 Answer:

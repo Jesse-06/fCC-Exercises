@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Responsively%20Style%20Radio%20Bu
 ----------
 Instructions:
 ----------
-
+You can use Bootstrap's col-xs-* classes on form elements, too! This way, our radio buttons will be evenly spread out across the page, regardless of how wide the screen resolution is.Nest all of your radio buttons within a <div class="row"> element. Then nest each of them within a <div class="col-xs-6"> element.
 
 ----------
 Answer:

@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Style%20the%20HTML%20Body%20Eleme
 ----------
 Instructions:
 ----------
-
+Now let's start fresh and talk about CSS inheritance.Every HTML page has a body element.We can prove that the body element exists here by giving it a background-color of black.We can do this by adding body { background-color: black; } to our style element.
 
 ----------
 Answer:

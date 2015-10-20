@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Sort%20Arrays%20with%20sort?solut
 ----------
 Instructions:
 ----------
-You can use the method sort to easily sort the values in the array alphabetically or numerically.var array = [1, 3, 2];array = array.sort();array is now [1, 2, 3].Use sort to sort array alphabetically.
+You can use the method sort to easily sort the values in the array alphabetically or numerically.var array = [1, 3, 2];array = array.sort();array is now [1, 2, 3].Use sort to sort array alphabetically.Here are some helpful links:Array.sort()
 
 ----------
 Answer:

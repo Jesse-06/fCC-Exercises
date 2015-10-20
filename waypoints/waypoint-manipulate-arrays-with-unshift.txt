@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Manipulate%20Arrays%20With%20unsh
 ----------
 Instructions:
 ----------
-Now that we've learned how to shiftthings from the start of the array, we need to learn how to unshiftstuff back to the start.Let's take the code we had last time and unshiftthis value to the start: "Paul".
+Now that we've learned how to shiftthings from the start of the array, we need to learn how to unshiftstuff back to the start.Let's take the code we had last time and unshiftthis value to the start: "Paul".Here are some helpful links:
 
 ----------
 Answer:

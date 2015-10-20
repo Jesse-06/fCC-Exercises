@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Bonfire:%20Roman%20Numeral%20Converter?soluti
 ----------
 Instructions:
 ----------
-Convert the given number into a roman numeral.All roman numerals answers should be provided in upper-case.Remember to use Read-Search-Ask if you get stuck. Try to pair program. Write your own code.
+Convert the given number into a roman numeral.All roman numerals answers should be provided in upper-case.Remember to use Read-Search-Ask if you get stuck. Try to pair program. Write your own code.Here are some helpful links:Roman NumeralsArray.splice()Array.indexOf()Array.join()
 
 ----------
 Answer:

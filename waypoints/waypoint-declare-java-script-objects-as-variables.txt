@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Declare%20JavaScript%20Objects%20
 ----------
 Instructions:
 ----------
-Before we dive into Object Oriented Programming, let's revisit JavaScript objects.Give your motorBike object a wheels, engines and seats attribute and set them to numbers.
+Before we dive into Object Oriented Programming, let's revisit JavaScript objects.Give your motorBike object a wheels, engines and seats attribute and set them to numbers.Here are some helpful links:
 
 ----------
 Answer:

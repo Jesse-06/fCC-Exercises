@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Give%20Each%20Element%20a%20Uniqu
 ----------
 Instructions:
 ----------
-
+We will also want to be able to use jQuery to target each button by its unique id.Give each of your buttons a unique id like, starting with target1 and ending with target6.
 
 ----------
 Answer:

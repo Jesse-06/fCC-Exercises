@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Use%20Hex%20Code%20to%20Color%20E
 ----------
 Instructions:
 ----------
-
+Hex code follows the red-green-blue, or rgb format. The first two digits of hex code represent the amount of red in the color. The third and fourth digit represent the amount of green. The fifth and sixth represent the amount of blue.So to get the absolute brightest blue, we use F for the fifth and sixth digits (the highest possible value) and 0 for all the other digits (the lowest possible value).Make the body element's background color blue by giving it the hex code value of #0000FF.
 
 ----------
 Answer:

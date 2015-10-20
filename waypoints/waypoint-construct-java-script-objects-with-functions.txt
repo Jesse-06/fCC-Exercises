@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Construct%20JavaScript%20Objects%
 ----------
 Instructions:
 ----------
-We are also able to create objects using constructor functions.Give your myMotorBike object a wheels, engines and seats attribute and set them to numbers.
+We are also able to create objects using constructor functions.Give your myMotorBike object a wheels, engines and seats attribute and set them to numbers.Here are some helpful links:
 
 ----------
 Answer:

@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Modify%20Array%20Data%20With%20In
 ----------
 Instructions:
 ----------
-We can also modify the data stored in arrays by using indexes.For example:var ourArray = [3,2,1];ourArray[0] = 1; // equals [1,2,1]Now modify the data stored at index 0 of myArray to the value of 3.
+We can also modify the data stored in arrays by using indexes.For example:var ourArray = [3,2,1];ourArray[0] = 1; // equals [1,2,1]Now modify the data stored at index 0 of myArray to the value of 3.Here are some helpful links:
 
 ----------
 Answer:

@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Create%20a%20JavaScript%20Slot%20
 ----------
 Instructions:
 ----------
-
+We are now going to try and combine some of the stuff we've just learned and create the logic for a slot machine game.For this we will need to generate three random numbers between 1 and 3 to represent the possible values of each individual slot.Store the three random numbers in slotOne, slotTwo and slotThree.Generate the random numbers by using the system we used earlier (an explanation of the formula can be found here):Math.floor(Math.random() * (3 - 1 + 1)) + 1;
 
 ----------
 Answer:

@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Add%20Different%20Padding%20to%20
 ----------
 Instructions:
 ----------
-
+Sometimes you will want to customize an element so that it has different padding on each of its sides.CSS allows you to control the padding of an element on all four sides with padding-top, padding-right, padding-bottom, and padding-left properties.Give the green box a padding of 40px on its top and left side, but only 20px on its bottom and right side.
 
 ----------
 Answer:

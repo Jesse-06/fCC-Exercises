@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Taste%20the%20Bootstrap%20Button%
 ----------
 Instructions:
 ----------
-
+The btn-primary class is the main color you'll use in your app. It is useful for highlighting actions you want your user to take.Add Bootstrap's btn-primary class to your button.Note that this button will still need the btn and btn-block classes.
 
 ----------
 Answer:

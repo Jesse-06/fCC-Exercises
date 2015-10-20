@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Divide%20One%20Number%20by%20Anot
 ----------
 Instructions:
 ----------
-We can also divide one number by another.JavaScript uses the / symbol for division.Replace the 0 with the correct number so you can get the result mentioned in the comment.
+We can also divide one number by another.JavaScript uses the / symbol for division.Replace the 0 with the correct number so you can get the result mentioned in the comment.Here are some helpful links:
 
 ----------
 Answer:

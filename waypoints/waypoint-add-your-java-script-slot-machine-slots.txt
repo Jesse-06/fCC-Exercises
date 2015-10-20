@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Add%20your%20JavaScript%20Slot%20
 ----------
 Instructions:
 ----------
-
+Now that our slots will each generate random numbers, we need to check whether they've all returned the same number.If they have, we should notify our user that they've won.Otherwise, we should return null, which is a JavaScript data structure that means nothing.If all three numbers match, we should return the number that we have in three of slots or leave it as null.Let's create an if statement with multiple conditions in order to check whether all numbers are equal.if(slotOne !== slotTwo || slotTwo !== slotThree){  return null;}
 
 ----------
 Answer:

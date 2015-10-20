@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Use%20Hex%20Code%20for%20Specific
 ----------
 Instructions:
 ----------
-
+Did you know there are other ways to represent colors in CSS? One of these ways is called hexadecimal code, or hex code for short.Decimal means the numbers zero through nine - the numbers that people use in everyday life. Hexadecimal includes these 10 numbers, plus the letters A, B, C, D, E and F. This means that Hexidecimal has a total of 16 possible values, instead of the 10 possible values that our normal base-10 number system gives us.With CSS, we use 6 hexadecimal numbers to represent colors. For example, #000000 is the lowest possible value, and it represents the color black.Replace the word black in our body element's background-color with its hex code representation, #000000. 
 
 ----------
 Answer:

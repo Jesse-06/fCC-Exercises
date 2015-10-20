@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Create%20Decimal%20Numbers%20with
 ----------
 Instructions:
 ----------
-JavaScript number variables can also have decimals.Let's create a variable myDecimal and give it a decimal value.
+JavaScript number variables can also have decimals.Let's create a variable myDecimal and give it a decimal value.Here are some helpful links:
 
 ----------
 Answer:

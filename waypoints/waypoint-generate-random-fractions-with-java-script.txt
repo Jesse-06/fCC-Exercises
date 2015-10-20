@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Generate%20Random%20Fractions%20w
 ----------
 Instructions:
 ----------
-Random numbers are useful for creating random behavior.JavaScript has a Math.random() function that generates a random decimal number.Use Math.random() to get myFunction to return a random number.
+Random numbers are useful for creating random behavior.JavaScript has a Math.random() function that generates a random decimal number.Use Math.random() to get myFunction to return a random number.Here are some helpful links:
 
 ----------
 Answer:

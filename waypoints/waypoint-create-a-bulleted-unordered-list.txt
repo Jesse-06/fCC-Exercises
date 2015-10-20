@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Create%20a%20Bulleted%20Unordered
 ----------
 Instructions:
 ----------
-
+HTML has a special element for creating unordered lists, or bullet point-style lists.Unordered lists start with a <ul> element. Then they contain some number of <li> elements.For example: <ul>  <li>milk</li>  <li>cheese</li></ul>would create a bullet point-style list of "milk" and "cheese".Replace your p elements with an unordered list of three things that cats love.
 
 ----------
 Answer:

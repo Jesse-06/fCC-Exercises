@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Filter%20Arrays%20with%20filter?s
 ----------
 Instructions:
 ----------
-Filter is a useful method that can filter out values that don't match a certain criteriaLet's remove all the values greater than fivearray = array.filter(function(val) {  return val });
+Filter is a useful method that can filter out values that don't match a certain criteriaLet's remove all the values greater than fivearray = array.filter(function(val) {  return val });Here are some helpful links:Array.filter()
 
 ----------
 Answer:

@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Split%20Strings%20with%20split?so
 ----------
 Instructions:
 ----------
-You can use the .split() method to split a string into an array..split() uses the argument you pass in as a delimiter to determine which points the string should be split at.var array = string.split(' ');Use .split() to create an array of words from string and assign it to array.
+You can use the .split() method to split a string into an array..split() uses the argument you pass in as a delimiter to determine which points the string should be split at.var array = string.split(' ');Use .split() to create an array of words from string and assign it to array.Here are some helpful links:String.split()
 
 ----------
 Answer:

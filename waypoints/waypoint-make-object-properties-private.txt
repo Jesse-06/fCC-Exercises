@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Make%20Object%20Properties%20Priv
 ----------
 Instructions:
 ----------
-Objects have their own attributes, called properties, and their own functions, called methods.In the previous challenge, we used the this keyword to reference public properties and public methods of the current object.We can also create private properties and private methods, which aren't accessible from outside the object.To do this, we omit the word this from the property or method declaration.See if you can keep myBike.speed and myBike.addUnit private, while making myBike.getSpeed publicly accessible.
+Objects have their own attributes, called properties, and their own functions, called methods.In the previous challenge, we used the this keyword to reference public properties and public methods of the current object.We can also create private properties and private methods, which aren't accessible from outside the object.To do this, we omit the word this from the property or method declaration.See if you can keep myBike.speed and myBike.addUnit private, while making myBike.getSpeed publicly accessible.Here are some helpful links:
 
 ----------
 Answer:

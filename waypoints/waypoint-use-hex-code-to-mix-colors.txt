@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Use%20Hex%20Code%20to%20Mix%20Col
 ----------
 Instructions:
 ----------
-
+From these three pure colors (red, green and blue), we can create 16 million other colors.For example, orange is pure red, mixed with some green, and no blue.Make the body element's background color orange by giving it the hex code value of #FFA500.
 
 ----------
 Answer:

@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Bonfire:%20Diff%20Two%20Arrays?solution=funct
 ----------
 Instructions:
 ----------
-Compare two arrays and return a new array with any items not found in both of the original arrays.Remember to use Read-Search-Ask if you get stuck. Try to pair program. Write your own code.
+Compare two arrays and return a new array with any items not found in both of the original arrays.Remember to use Read-Search-Ask if you get stuck. Try to pair program. Write your own code.Here are some helpful links:Comparison OperatorsArray.slice()Array.filter()Array.indexOf()Array.concat()
 
 ----------
 Answer:

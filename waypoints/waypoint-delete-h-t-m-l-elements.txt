@@ -7,7 +7,7 @@ http://freecodecamp.com/challenges/Waypoint:%20Delete%20HTML%20Elements?solution
 ----------
 Instructions:
 ----------
-
+Delete your h1 element so we can simplify our view.Our phone doesn't have much vertical space.Let's remove the unnecessary elements so we can start building our CatPhotoApp.
 
 ----------
 Answer:
