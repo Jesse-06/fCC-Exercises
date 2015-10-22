@@ -1,0 +1,46 @@
+#Waypoint: Adjusting the Padding of an Element
+<a href="http://freecodecamp.com/challenges/Waypoint:%20Adjusting%20the%20Padding%20of%20an%20Element?solution=%3Cstyle%3E%0A%20%20.injected-text%20%7B%0A%20%20%20%20margin-bottom%3A%20-25px%3B%0A%20%20%20%20text-align%3A%20center%3B%0A%20%20%7D%0A%0A%20%20.box%20%7B%0A%20%20%20%20border-style%3A%20solid%3B%0A%20%20%20%20border-color%3A%20black%3B%0A%20%20%20%20border-width%3A%205px%3B%0A%20%20%20%20text-align%3A%20center%3B%0A%20%20%7D%0A%0A%20%20.yellow-box%20%7B%0A%20%20%20%20background-color%3A%20yellow%3B%0A%20%20%20%20padding%3A10px%3B%0A%20%20%7D%0A%20%20%0A%20%20.red-box%20%7B%0A%20%20%20%20background-color%3Ared%3B%0A%20%20%20%20padding%3A%2020px%3B%0A%20%20%7D%0A%0A%20%20.green-box%20%7B%0A%20%20%20%20background-color%3A%20green%3B%0A%20%20%20%20padding%3A%2020px%3B%0A%20%20%7D%0A%3C%2Fstyle%3E%0A%3Ch5%20class%3D%22injected-text%22%3Emargin%3C%2Fh5%3E%0A%0A%3Cdiv%20class%3D%22box%20yellow-box%22%3E%0A%20%20%3Ch5%20class%3D%22box%20red-box%22%3Epadding%3C%2Fh5%3E%0A%20%20%3Ch5%20class%3D%22box%20green-box%22%3Epadding%3C%2Fh5%3E%0A%3C%2Fdiv%3E%0A" target="_blank">Click here</a> to see the solution on the freeCodeCamp website.
+
+
+####Instructions:
+<p class="wrappable negative-10">You may have already noticed this, but all HTML elements are essentially little rectangles.</p><p class="wrappable negative-10">Three important properties control the space that surrounds each HTML element: <code>padding</code>, <code>margin</code>, and <code>border</code>.</p><p class="wrappable negative-10">An element&apos;s <code>padding</code> controls the amount of space between the element and its <code>border</code>.</p><p class="wrappable negative-10">Here, we can see that the green box and the red box are nested within the yellow box. Note that the red box has more <code>padding</code> than the green box.</p><p class="wrappable negative-10">When you increase the green box&apos;s <code>padding</code>, it will increase the distance between the text <code>padding</code> and the border around it.</p><p class="wrappable negative-10">Change the <code>padding</code> of your green box to match that of your red box.</p><div class="negative-bottom-margin-30"></div>
+
+
+####Answer:
+```javascript
+<style>
+  .injected-text {
+    margin-bottom: -25px;
+    text-align: center;
+  }
+
+  .box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+  }
+
+  .yellow-box {
+    background-color: yellow;
+    padding:10px;
+  }
+  
+  .red-box {
+    background-color:red;
+    padding: 20px;
+  }
+
+  .green-box {
+    background-color: green;
+    padding: 20px;
+  }
+</style>
+<h5 class="injected-text">margin</h5>
+
+<div class="box yellow-box">
+  <h5 class="box red-box">padding</h5>
+  <h5 class="box green-box">padding</h5>
+</div>
+
+```
